@@ -6,4 +6,5 @@ You can edit this file as you like.
 , dependencies = ["prelude", "concur-core", "concur-react"]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
+, license = "MPL-2.0"
 }
