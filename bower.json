@@ -1,0 +1,21 @@
+{
+    "name": "purescript-metajelo-ui-css-classes",
+    "license": [
+        "MPL-2.0"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:labordynamicsinstitute/metajelo-ui-css-classes.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-concur-core": "^v0.4.1",
+        "purescript-concur-react": "^v0.4.1",
+        "purescript-prelude": "^v4.1.1"
+    }
+}
