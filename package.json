@@ -1,0 +1,17 @@
+{
+  "name": "purescript-metajelo-ui-css-classes",
+  "description": "CSS class names for the Metajelo UI",
+  "scripts": {
+    "clean": "rimraf output && rimraf .pulp-cache",
+    "build": "spago build"
+  },
+  "author": "Brandon Barker <brandon.barker@cornell.edu> (https://github.com/bbarker)",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "pulp": "^13.0.0",
+    "purescript": "^0.13.5",
+    "purescript-psa": "^0.7.3",
+    "rimraf": "^2.6.3"
+  }
+}
