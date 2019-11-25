@@ -7,4 +7,5 @@ You can edit this file as you like.
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
 , license = "MPL-2.0"
+, repository = "git@github.com:labordynamicsinstitute/metajelo-ui-css-classes.git"
 }
