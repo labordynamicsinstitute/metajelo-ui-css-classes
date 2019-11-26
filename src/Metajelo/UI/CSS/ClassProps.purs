@@ -1,4 +1,4 @@
--- | CSS class names used in [metajelo-ui](https://github.com/labordynamicsinstitute/metajelo-ui)
+-- | CSS class names as Concur-React Props, used in [metajelo-ui](https://github.com/labordynamicsinstitute/metajelo-ui)
 module Metajelo.UI.CSS.ClassProps where
 
 import Metajelo.UI.CSS.ClassNames as CN
