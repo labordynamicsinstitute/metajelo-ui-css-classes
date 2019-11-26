@@ -6,7 +6,8 @@ import Concur.React.Props (ReactProps, className)
 mjUiClassPfx :: String
 mjUiClassPfx = "metajelo-ui_"
 
--- | Prepends the prefix (`metajelo-ui_`) to all metajelo-ui specific class names
+-- | Prepends the string held in `mjUiClassPfx` (should be`metajelo-ui_`)
+-- | to all metajelo-ui specific class names
 prependUiPfx :: String -> String
 prependUiPfx cname = mjUiClassPfx <> cname
 
