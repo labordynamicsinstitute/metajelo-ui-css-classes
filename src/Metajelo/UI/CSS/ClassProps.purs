@@ -45,6 +45,9 @@ resourceType = U.mjUiClass CN.resourceType
 resourceMDSource :: ∀ a. ReactProps a
 resourceMDSource = U.mjUiClass CN.resourceMDSource
 
+institutionContact :: ∀ a. ReactProps a
+institutionContact = U.mjUiClass CN.institutionContact
+
 institutionPolicy :: ∀ a. ReactProps a
 institutionPolicy = U.mjUiClass CN.institutionPolicy
 
