@@ -1,4 +1,4 @@
-module Metajelo.UI.CSS.Util where
+module Metajelo.CSS.UI.Util where
 
 import Prelude ((<<<), (<>))
 import Concur.React.Props (ReactProps, className)

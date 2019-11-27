@@ -1,8 +1,8 @@
 -- | CSS class names as Concur-React Props, used in [metajelo-ui](https://github.com/labordynamicsinstitute/metajelo-ui)
-module Metajelo.UI.CSS.ClassProps where
+module Metajelo.CSS.UI.ClassProps where
 
-import Metajelo.UI.CSS.ClassNames as CN
-import Metajelo.UI.CSS.Util as U
+import Metajelo.CSS.UI.ClassNames as CN
+import Metajelo.CSS.UI.Util as U
 
 import Concur.React.Props (ReactProps)
 

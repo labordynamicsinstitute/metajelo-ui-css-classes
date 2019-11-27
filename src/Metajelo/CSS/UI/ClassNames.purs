@@ -4,7 +4,7 @@
 -- | For use with purescript-concur based libraries, developers should refer to
 -- | to the [ReactProps](https://pursuit.purescript.org/packages/purescript-concur-react/docs/Concur.React.Props#t:ReactProps)
 -- | wrapper for these names in the module [ClassProps](https://pursuit.purescript.org/packages/purescript-metajelo-ui-css-classes/docs/Metajelo.UI.CSS.ClassProps).
-module Metajelo.UI.CSS.ClassNames where
+module Metajelo.CSS.UI.ClassNames where
 
 page :: String
 page = "page"
