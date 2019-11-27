@@ -9,6 +9,8 @@ import Concur.React.Props (ReactProps)
 page :: ∀ a. ReactProps a
 page = U.mjUiClass CN.page
 
+------- Common classes follow ----------------------------
+
 record :: ∀ a. ReactProps a
 record = U.mjUiClass CN.record
 
@@ -16,8 +18,12 @@ product :: ∀ a. ReactProps a
 product = U.mjUiClass CN.product
 
 -- | A list of products
-products :: ∀ a. ReactProps a
-products = U.mjUiClass CN.products
+productList :: ∀ a. ReactProps a
+productList = U.mjUiClass CN.productList
+
+-- | A header for the list of supplementary products
+productsHeader :: ∀ a. ReactProps a
+productsHeader = U.mjUiClass CN.productsHeader
 
 location :: ∀ a. ReactProps a
 location = U.mjUiClass CN.location
@@ -28,12 +34,16 @@ sustainability = U.mjUiClass CN.sustainability
 identifier :: ∀ a. ReactProps a
 identifier = U.mjUiClass CN.identifier
 
-relatedIdentifier :: ∀ a. ReactProps a
-relatedIdentifier = U.mjUiClass CN.relatedIdentifier
+relatedId :: ∀ a. ReactProps a
+relatedId = U.mjUiClass CN.relatedId
 
 -- | A list of related identifiers
-relatedIdentifiers :: ∀ a. ReactProps a
-relatedIdentifiers = U.mjUiClass CN.relatedIdentifiers
+relatedIdList :: ∀ a. ReactProps a
+relatedIdList = U.mjUiClass CN.relatedIdList
+
+-- | A header for a list of related identifiers
+relatedIdsHeader :: ∀ a. ReactProps a
+relatedIdsHeader = U.mjUiClass CN.relatedIdsHeader
 
 basicMetaData :: ∀ a. ReactProps a
 basicMetaData = U.mjUiClass CN.basicMetaData

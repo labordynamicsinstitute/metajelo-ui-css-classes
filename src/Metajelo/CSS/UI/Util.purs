@@ -3,6 +3,7 @@ module Metajelo.CSS.UI.Util where
 import Prelude ((<<<), (<>))
 import Concur.React.Props (ReactProps, className)
 
+-- | The prefix appended to all metajelo-ui class names.
 mjUiClassPfx :: String
 mjUiClassPfx = "metajelo-ui_"
 
