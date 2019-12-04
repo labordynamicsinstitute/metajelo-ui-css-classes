@@ -41,8 +41,8 @@ relatedIdList = "relatedIdList"
 relatedIdsHeader :: String
 relatedIdsHeader = "relatedIdsHeader"
 
-basicMetaData :: String
-basicMetaData = "basicMetaData"
+basicMetadata :: String
+basicMetadata = "basicMetadata"
 
 resourceType :: String
 resourceType = "resourceType"

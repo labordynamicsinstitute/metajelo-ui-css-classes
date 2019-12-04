@@ -99,8 +99,8 @@ relatedIdList = U.mjWebClass CN.relatedIdList
 relatedIdsHeader :: ∀ a. ReactProps a
 relatedIdsHeader = U.mjWebClass CN.relatedIdsHeader
 
-basicMetaData :: ∀ a. ReactProps a
-basicMetaData = U.mjWebClass CN.basicMetaData
+basicMetadata :: ∀ a. ReactProps a
+basicMetadata = U.mjWebClass CN.basicMetadata
 
 resourceType :: ∀ a. ReactProps a
 resourceType = U.mjWebClass CN.resourceType

@@ -1,3 +1,4 @@
+-- | Class names specific to metajelo-web.
 module Metajelo.CSS.Web.ClassNamesPrivate where
 
 -- | A group of products, which may not be all products
@@ -76,8 +77,13 @@ appliesNo = "applies-no"
 appliesInfo :: String
 appliesInfo = "applies_info"
 
+-- | The outer display `<div>` for any errors that occur
+-- | while parsing, validating, and rendering a Metajelo
+-- | XML document.
 errorDisplayBox :: String
 errorDisplayBox = "errorDisplayBox"
 
+-- | The `<span>` for the error message that is a child of
+-- | the [errorDisplayBox](#v:errorDisplayBox) `<div>`.
 errorDisplay :: String
 errorDisplay = "errorDisplay"

@@ -45,8 +45,8 @@ relatedIdList = U.mjUiClass CN.relatedIdList
 relatedIdsHeader :: ∀ a. ReactProps a
 relatedIdsHeader = U.mjUiClass CN.relatedIdsHeader
 
-basicMetaData :: ∀ a. ReactProps a
-basicMetaData = U.mjUiClass CN.basicMetaData
+basicMetadata :: ∀ a. ReactProps a
+basicMetadata = U.mjUiClass CN.basicMetadata
 
 resourceType :: ∀ a. ReactProps a
 resourceType = U.mjUiClass CN.resourceType
