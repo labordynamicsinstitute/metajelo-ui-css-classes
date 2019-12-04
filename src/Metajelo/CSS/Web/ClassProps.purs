@@ -63,6 +63,12 @@ appliesNo = U.mjWebClass CN.appliesNo
 appliesInfo :: ∀ a. ReactProps a
 appliesInfo = U.mjWebClass CN.appliesInfo
 
+errorDisplayBox :: ∀ a. ReactProps a
+errorDisplayBox = U.mjWebClass CN.errorDisplayBox
+
+errorDisplay :: ∀ a. ReactProps a
+errorDisplay = U.mjWebClass CN.errorDisplay
+
 ------- Common classes follow ----------------------------
 
 record :: ∀ a. ReactProps a
