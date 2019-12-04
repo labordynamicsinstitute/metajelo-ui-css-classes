@@ -2,6 +2,12 @@
 -- | and  [metajelo-ui](https://github.com/labordynamicsinstitute/metajelo-ui).
 -- | In the former case, these are all prefixed by `metajelo_`, and in the latter, by `metajelo-ui_`, or whatever the value of [mjWebClassPfx](https://pursuit.purescript.org/packages/purescript-metajelo-ui-css-classes/docs/Metajelo.CSS.Web.Util#v:mjUiClassPfx) or [mjUiClassPfx](https://pursuit.purescript.org/packages/purescript-metajelo-ui-css-classes/docs/Metajelo.CSS.UI.Util#v:mjUiClassPfx) is set to.
 -- |
+-- | In general, these class names have some semantic meaning that is related
+-- | directly to the metajelo schema; for `metajelo-web`, this is how the
+-- | elements and attributes of the document are rendered,
+-- | and for `metajelo-ui`, it is instead
+-- | how the style of the corresponding forms (and sub-forms) are rendered.
+
 -- | For use with purescript-concur based libraries, developers should refer to
 -- | to the [ReactProps](https://pursuit.purescript.org/packages/purescript-concur-react/docs/Concur.React.Props#t:ReactProps)
 -- | wrapper for these names in the module [ClassProps](https://pursuit.purescript.org/packages/purescript-metajelo-ui-css-classes/docs/Metajelo.CSS.Common.ClassProps).
