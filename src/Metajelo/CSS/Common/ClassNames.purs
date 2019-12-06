@@ -3,7 +3,7 @@
 -- | In the former case, these are all prefixed by `metajelo_`, and in the latter, by `metajelo-ui_`, or whatever the value of [mjWebClassPfx](https://pursuit.purescript.org/packages/purescript-metajelo-ui-css-classes/docs/Metajelo.CSS.Web.Util#v:mjUiClassPfx) or [mjUiClassPfx](https://pursuit.purescript.org/packages/purescript-metajelo-ui-css-classes/docs/Metajelo.CSS.UI.Util#v:mjUiClassPfx) is set to.
 -- |
 -- | In general, these class names have some semantic meaning that is related
--- | directly to the metajelo schema; for `metajelo-web`, this is how the
+-- | directly to the metajelo [schema](https://github.com/labordynamicsinstitute/metajelo/tree/master/schema/xsd); for `metajelo-web`, this is how the
 -- | elements and attributes of the document are rendered,
 -- | and for `metajelo-ui`, it is instead
 -- | how the style of the corresponding forms (and sub-forms) are rendered.
