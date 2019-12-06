@@ -1,7 +1,8 @@
 module Metajelo.CSS.UI.Util where
 
-import Prelude ((<<<), (<>))
+import Prelude (map, (<<<), (<>))
 import Concur.React.Props (ReactProps, className)
+import Metajelo.CSS.Common.Util as U
 
 -- | The prefix appended to all metajelo-ui class names.
 mjUiClassPfx :: String
@@ -14,3 +15,6 @@ prependUiPfx cname = mjUiClassPfx <> cname
 
 mjUiClass :: ∀ a. String -> ReactProps a
 mjUiClass = className <<< prependUiPfx
+
+cList :: forall a. Array String -> ReactProps a
+cList = U.cList <<< (map prependUiPfx)
