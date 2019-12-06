@@ -24,3 +24,7 @@
 .metajelo-ui_resourceId:before {
   content: "Resource ID";
 }
+
+.metajelo-ui_productsHeader:before {
+  content: " Supplementary Products ";
+}
