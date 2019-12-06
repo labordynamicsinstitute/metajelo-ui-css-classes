@@ -13,3 +13,16 @@ date = "date"
 -- | a completed record
 recPreview :: String
 recPreview = "recPreview"
+
+-- | For the `<div>` containing the metajelo-web preview
+-- | for a single supplementary product;
+-- | requires a complete product
+prodPreview :: String
+prodPreview = "prodPreview"
+
+-- | For the `<div>` containing the metajelo-web preview
+-- | for the location element of a
+-- | single supplementary product;
+-- | requires a complete product
+locPreview :: String
+locPreview = "prodPreview"

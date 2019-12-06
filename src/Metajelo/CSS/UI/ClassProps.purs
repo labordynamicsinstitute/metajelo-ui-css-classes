@@ -19,6 +19,19 @@ date = U.mjUiClass CN.date
 recPreview :: ∀ a. ReactProps a
 recPreview = U.mjUiClass CN.recPreview
 
+-- | For the `<div>` containing the metajelo-web preview
+-- | for a single supplementary product;
+-- | requires a complete product
+prodPreview :: ∀ a. ReactProps a
+prodPreview = U.mjUiClass CN.prodPreview
+
+-- | For the `<div>` containing the metajelo-web preview
+-- | for the location element of a
+-- | single supplementary product;
+-- | requires a complete product
+locPreview :: ∀ a. ReactProps a
+locPreview = U.mjUiClass CN.locPreview
+
 ------- Common classes follow ----------------------------
 
 record :: ∀ a. ReactProps a
@@ -71,6 +84,15 @@ resourceType = U.mjUiClass CN.resourceType
 resourceMDSource :: ∀ a. ReactProps a
 resourceMDSource = U.mjUiClass CN.resourceMDSource
 
+institutionName :: ∀ a. ReactProps a
+institutionName = U.mjUiClass CN.institutionName
+
+institutionId :: ∀ a. ReactProps a
+institutionId = U.mjUiClass CN.institutionId
+
+institutionType :: ∀ a. ReactProps a
+institutionType = U.mjUiClass CN.institutionType
+
 institutionContact :: ∀ a. ReactProps a
 institutionContact = U.mjUiClass CN.institutionContact
 
@@ -80,3 +102,9 @@ institutionPolicy = U.mjUiClass CN.institutionPolicy
 -- | A list of institutional policies
 institutionPolicies :: ∀ a. ReactProps a
 institutionPolicies = U.mjUiClass CN.institutionPolicies
+
+superOrg :: ∀ a. ReactProps a
+superOrg = U.mjUiClass CN.superOrg
+
+versioning :: ∀ a. ReactProps a
+versioning = U.mjUiClass CN.versioning

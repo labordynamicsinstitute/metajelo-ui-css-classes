@@ -21,26 +21,11 @@ pubyear = U.mjWebClass CN.pubyear
 title :: ∀ a. ReactProps a
 title = U.mjWebClass CN.title
 
-institutionName :: ∀ a. ReactProps a
-institutionName = U.mjWebClass CN.institutionName
-
-institutionId :: ∀ a. ReactProps a
-institutionId = U.mjWebClass CN.institutionId
-
-institutionType :: ∀ a. ReactProps a
-institutionType = U.mjWebClass CN.institutionType
-
-superOrg :: ∀ a. ReactProps a
-superOrg = U.mjWebClass CN.superOrg
-
 missionStatement :: ∀ a. ReactProps a
 missionStatement = U.mjWebClass CN.missionStatement
 
 fundingStatement :: ∀ a. ReactProps a
 fundingStatement = U.mjWebClass CN.fundingStatement
-
-versioning :: ∀ a. ReactProps a
-versioning = U.mjWebClass CN.versioning
 
 policy :: ∀ a. ReactProps a
 policy = U.mjWebClass CN.policy
@@ -121,6 +106,15 @@ resourceType = U.mjWebClass CN.resourceType
 resourceMDSource :: ∀ a. ReactProps a
 resourceMDSource = U.mjWebClass CN.resourceMDSource
 
+institutionName :: ∀ a. ReactProps a
+institutionName = U.mjWebClass CN.institutionName
+
+institutionId :: ∀ a. ReactProps a
+institutionId = U.mjWebClass CN.institutionId
+
+institutionType :: ∀ a. ReactProps a
+institutionType = U.mjWebClass CN.institutionType
+
 institutionContact :: ∀ a. ReactProps a
 institutionContact = U.mjWebClass CN.institutionContact
 
@@ -130,3 +124,9 @@ institutionPolicy = U.mjWebClass CN.institutionPolicy
 -- | A list of institutional policies
 institutionPolicies :: ∀ a. ReactProps a
 institutionPolicies = U.mjWebClass CN.institutionPolicies
+
+superOrg :: ∀ a. ReactProps a
+superOrg = U.mjWebClass CN.superOrg
+
+versioning :: ∀ a. ReactProps a
+versioning = U.mjWebClass CN.versioning

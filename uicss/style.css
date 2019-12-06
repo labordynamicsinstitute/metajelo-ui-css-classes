@@ -27,4 +27,61 @@
 
 .metajelo-ui_productsHeader:before {
   content: " Supplementary Products ";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.metajelo-ui_relatedIdsHeader:before {
+  content : " Related Identifiers ";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.metajelo-ui_product:before {
+  content : " Product ";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.metajelo-ui_prodPreview:before {
+  content: "Product preview:";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.metajelo-ui_location:before {
+  content : " Location ";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.metajelo-ui_superOrg:before {
+  content : "Super Organization (optional): ";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.metajelo-ui_institutionId:before {
+  content : "Institution ID: ";
+  font-size: 14px;
+}
+
+.metajelo-ui_institutionName:before {
+  content : "Institution Name: ";
+  font-size: 14px;
+}
+
+.metajelo-ui_institutionType:before {
+  content : " Institution Type ";
+  font-size: 14px;
+}
+
+.metajelo-ui_versioning:before {
+  content : " versioning? ";
+}
+
+.metajelo-ui_locPreview:before {
+  content: "Location preview:";
+  font-size: 14px;
+  font-weight: bold;
 }

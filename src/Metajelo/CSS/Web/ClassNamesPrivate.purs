@@ -24,26 +24,11 @@ pubyear = "pubyear"
 title :: String
 title = "title"
 
-institutionName :: String
-institutionName = "institutionName"
-
-institutionId :: String
-institutionId = "institutionId"
-
-institutionType :: String
-institutionType = "institutionType"
-
-superOrg :: String
-superOrg = "superOrg"
-
 missionStatement :: String
 missionStatement = "missionStatement"
 
 fundingStatement :: String
 fundingStatement = "fundingStatement"
-
-versioning :: String
-versioning = "versioning"
 
 -- | The component of a policy describing either a
 -- | reference to a policy or a free-text policy.

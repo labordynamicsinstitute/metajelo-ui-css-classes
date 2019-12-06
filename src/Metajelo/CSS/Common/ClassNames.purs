@@ -64,6 +64,15 @@ resourceType = "resourceType"
 resourceMDSource :: String
 resourceMDSource = "resourceMDSource"
 
+institutionName :: String
+institutionName = "institutionName"
+
+institutionId :: String
+institutionId = "institutionId"
+
+institutionType :: String
+institutionType = "institutionType"
+
 institutionContact :: String
 institutionContact = "institutionContact"
 
@@ -73,3 +82,10 @@ institutionPolicy = "institutionPolicy"
 -- | A list of institutional policies
 institutionPolicies :: String
 institutionPolicies = "institutionPolicies"
+
+-- | Optional super organization name
+superOrg :: String
+superOrg = "superOrg"
+
+versioning :: String
+versioning = "versioning"
