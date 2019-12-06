@@ -13,8 +13,12 @@
 -- | wrapper for these names in the module [ClassProps](https://pursuit.purescript.org/packages/purescript-metajelo-ui-css-classes/docs/Metajelo.CSS.Common.ClassProps).
 module Metajelo.CSS.Common.ClassNames where
 
+-- | For encompassing the entire metajelo record.
 record :: String
 record = "record"
+
+recordId :: String
+recordId = "recordId"
 
 product :: String
 product = "product"
@@ -49,6 +53,9 @@ relatedIdsHeader = "relatedIdsHeader"
 
 basicMetadata :: String
 basicMetadata = "basicMetadata"
+
+resourceId :: String
+resourceId = "resourceId"
 
 resourceType :: String
 resourceType = "resourceType"

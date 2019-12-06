@@ -74,6 +74,9 @@ errorDisplay = U.mjWebClass CN.errorDisplay
 record :: ∀ a. ReactProps a
 record = U.mjWebClass CN.record
 
+recordId :: ∀ a. ReactProps a
+recordId = U.mjWebClass CN.recordId
+
 product :: ∀ a. ReactProps a
 product = U.mjWebClass CN.product
 
@@ -107,6 +110,9 @@ relatedIdsHeader = U.mjWebClass CN.relatedIdsHeader
 
 basicMetadata :: ∀ a. ReactProps a
 basicMetadata = U.mjWebClass CN.basicMetadata
+
+resourceId :: ∀ a. ReactProps a
+resourceId = U.mjWebClass CN.resourceId
 
 resourceType :: ∀ a. ReactProps a
 resourceType = U.mjWebClass CN.resourceType

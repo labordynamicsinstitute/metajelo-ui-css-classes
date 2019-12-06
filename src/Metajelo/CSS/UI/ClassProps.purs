@@ -24,6 +24,9 @@ recPreview = U.mjUiClass CN.recPreview
 record :: ∀ a. ReactProps a
 record = U.mjUiClass CN.record
 
+recordId :: ∀ a. ReactProps a
+recordId = U.mjUiClass CN.recordId
+
 product :: ∀ a. ReactProps a
 product = U.mjUiClass CN.product
 
@@ -57,6 +60,9 @@ relatedIdsHeader = U.mjUiClass CN.relatedIdsHeader
 
 basicMetadata :: ∀ a. ReactProps a
 basicMetadata = U.mjUiClass CN.basicMetadata
+
+resourceId :: ∀ a. ReactProps a
+resourceId = U.mjUiClass CN.resourceId
 
 resourceType :: ∀ a. ReactProps a
 resourceType = U.mjUiClass CN.resourceType

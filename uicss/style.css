@@ -5,8 +5,22 @@
 
 .metajelo-ui_record:before {
   content: "Metajelo Record Form ";
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .metajelo-ui_recPreview:before {
   content: "Metajelo Record preview:";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.metajelo-ui_recordId:before {
+  content: "Record Identifier";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.metajelo-ui_resourceId:before {
+  content: "Resource ID";
 }
