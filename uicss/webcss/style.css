@@ -44,7 +44,7 @@ html {
   line-height: 1.2;
   font-weight: 700;
 }
-.metajelo_productsHeader:after {
+.metajelo_productsHeader:before {
   content: " Supplementary materials for ";
 }
 
