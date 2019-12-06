@@ -39,7 +39,7 @@
 
 .metajelo-ui_product:before {
   content : " Product ";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -50,21 +50,22 @@
 }
 
 .metajelo-ui_location:before {
-  content : " Location ";
+  content : "Location\A";
   font-size: 16px;
   font-weight: bold;
+  white-space: pre;
 }
 
 .metajelo-ui_superOrg:before {
   content : "Super Organization (optional): ";
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.metajelo-ui_institutionId:before {
-  content : "Institution ID: ";
   font-size: 14px;
 }
+
+/* .metajelo-ui_institutionId:before {
+  content : "\AInstitution ID: ";
+  font-size: 14px;
+}
+ */
 
 .metajelo-ui_institutionName:before {
   content : "Institution Name: ";

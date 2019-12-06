@@ -25,4 +25,4 @@ prodPreview = "prodPreview"
 -- | single supplementary product;
 -- | requires a complete product
 locPreview :: String
-locPreview = "prodPreview"
+locPreview = "locPreview"
