@@ -9,6 +9,16 @@ import Concur.React.Props (ReactProps)
 page :: ∀ a. ReactProps a
 page = U.mjUiClass CN.page
 
+-- | For entering creation date of record
+date :: ∀ a. ReactProps a
+date = U.mjUiClass CN.date
+
+-- | For the `<div>` containing the metajelo-web record
+-- | preview; note that metajelo-web will only work on
+-- | a completed record
+recPreview :: ∀ a. ReactProps a
+recPreview = U.mjUiClass CN.recPreview
+
 ------- Common classes follow ----------------------------
 
 record :: ∀ a. ReactProps a

@@ -3,3 +3,10 @@
 **/
 @import url('/css/webcss/style.css');
 
+.metajelo-ui_record:before {
+  content: "Metajelo Record Form ";
+}
+
+.metajelo-ui_recPreview:before {
+  content: "Metajelo Record preview:";
+}
