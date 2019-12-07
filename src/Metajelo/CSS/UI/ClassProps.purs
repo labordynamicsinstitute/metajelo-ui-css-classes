@@ -66,8 +66,17 @@ fundingStatement = U.mjUiClass CN.fundingStatement
 identifier :: ∀ a. ReactProps a
 identifier = U.mjUiClass CN.identifier
 
+id :: ∀ a. ReactProps a
+id = U.mjUiClass CN.id
+
+idType :: ∀ a. ReactProps a
+idType = U.mjUiClass CN.idType
+
 relatedId :: ∀ a. ReactProps a
 relatedId = U.mjUiClass CN.relatedId
+
+relType :: ∀ a. ReactProps a
+relType = U.mjUiClass CN.relType
 
 -- | A list of related identifiers
 relatedIdList :: ∀ a. ReactProps a

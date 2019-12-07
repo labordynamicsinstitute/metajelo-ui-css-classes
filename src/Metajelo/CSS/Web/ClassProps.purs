@@ -42,6 +42,9 @@ appliesNo = U.mjWebClass CN.appliesNo
 appliesInfo :: ∀ a. ReactProps a
 appliesInfo = U.mjWebClass CN.appliesInfo
 
+idUrl :: ∀ a. ReactProps a
+idUrl = U.mjWebClass CN.idUrl
+
 errorDisplayBox :: ∀ a. ReactProps a
 errorDisplayBox = U.mjWebClass CN.errorDisplayBox
 
@@ -82,8 +85,17 @@ fundingStatement = U.mjWebClass CN.fundingStatement
 identifier :: ∀ a. ReactProps a
 identifier = U.mjWebClass CN.identifier
 
+id :: ∀ a. ReactProps a
+id = U.mjWebClass CN.id
+
+idType :: ∀ a. ReactProps a
+idType = U.mjWebClass CN.idType
+
 relatedId :: ∀ a. ReactProps a
 relatedId = U.mjWebClass CN.relatedId
+
+relType :: ∀ a. ReactProps a
+relType = U.mjWebClass CN.relType
 
 -- | A list of related identifiers
 relatedIdList :: ∀ a. ReactProps a

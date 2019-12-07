@@ -56,6 +56,11 @@ appliesNo = "applies-no"
 appliesInfo :: String
 appliesInfo = "applies_info"
 
+-- | In metajelo-web, may supersede the use of referencing the
+-- | identifier's id string directly
+idUrl :: String
+idUrl = "idUrl"
+
 -- | The outer display `<div>` for any errors that occur
 -- | while parsing, validating, and rendering a Metajelo
 -- | XML document.

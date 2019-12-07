@@ -166,4 +166,8 @@ html {
   content: "\f147";
 }
 
+.metajelo_idType:after {
+  content: ": ";
+}
+
 /* End of From icomoon */

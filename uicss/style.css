@@ -3,6 +3,22 @@
 **/
 @import url('/css/webcss/style.css');
 
+.metajelo-ui_id:before {
+  content: "Id: ";
+}
+
+.metajelo-ui_idType:before {
+  content: " Identifier Type ";
+}
+
+.metajelo-ui_relatedId:before {
+  content: "Related Identifier: ";
+}
+
+.metajelo-ui_relType:before {
+  content: " Relation Type ";
+}
+
 .metajelo-ui_record:before {
   content: "Metajelo Record Form ";
   font-size: 20px;

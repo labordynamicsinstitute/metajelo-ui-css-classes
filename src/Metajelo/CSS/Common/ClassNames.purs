@@ -46,8 +46,18 @@ fundingStatement = "fundingStatement"
 identifier :: String
 identifier = "identifier"
 
+-- | The id component of an identifier, i.e. the id string.
+id :: String
+id = "id"
+
+idType :: String
+idType = "idType"
+
 relatedId :: String
 relatedId = "relatedId"
+
+relType :: String
+relType = "relType"
 
 -- | A list of related identifiers
 relatedIdList :: String
