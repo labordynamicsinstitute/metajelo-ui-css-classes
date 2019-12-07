@@ -118,3 +118,21 @@
   content :  "Funding Statement URL: ";
   font-size: 14px;
 }
+
+.metajelo-ui_basicMetadata:before {
+  content : " Basic Metadata ";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.metajelo-ui_title:before {
+  content : "Title: ";
+}
+
+.metajelo-ui_creator:before {
+  content : "Creator: ";
+}
+
+.metajelo-ui_pubyear:before {
+  content : "Publication Year: ";
+}

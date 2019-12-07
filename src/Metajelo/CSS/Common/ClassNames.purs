@@ -70,6 +70,15 @@ relatedIdsHeader = "relatedIdsHeader"
 basicMetadata :: String
 basicMetadata = "basicMetadata"
 
+creator :: String
+creator = "creator"
+
+pubyear :: String
+pubyear = "pubyear"
+
+title :: String
+title = "title"
+
 resourceId :: String
 resourceId = "resourceId"
 

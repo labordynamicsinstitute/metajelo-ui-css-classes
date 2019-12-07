@@ -12,15 +12,6 @@ productGroup = U.mjWebClass CN.productGroup
 productCitation :: ∀ a. ReactProps a
 productCitation = U.mjWebClass CN.productCitation
 
-creator :: ∀ a. ReactProps a
-creator = U.mjWebClass CN.creator
-
-pubyear :: ∀ a. ReactProps a
-pubyear = U.mjWebClass CN.pubyear
-
-title :: ∀ a. ReactProps a
-title = U.mjWebClass CN.title
-
 policy :: ∀ a. ReactProps a
 policy = U.mjWebClass CN.policy
 
@@ -107,6 +98,15 @@ relatedIdsHeader = U.mjWebClass CN.relatedIdsHeader
 
 basicMetadata :: ∀ a. ReactProps a
 basicMetadata = U.mjWebClass CN.basicMetadata
+
+creator :: ∀ a. ReactProps a
+creator = U.mjWebClass CN.creator
+
+pubyear :: ∀ a. ReactProps a
+pubyear = U.mjWebClass CN.pubyear
+
+title :: ∀ a. ReactProps a
+title = U.mjWebClass CN.title
 
 resourceId :: ∀ a. ReactProps a
 resourceId = U.mjWebClass CN.resourceId

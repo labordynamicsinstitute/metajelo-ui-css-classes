@@ -15,15 +15,6 @@ productGroup = "productGroup"
 productCitation :: String
 productCitation = "productCitation"
 
-creator :: String
-creator = "creator"
-
-pubyear :: String
-pubyear = "pubyear"
-
-title :: String
-title = "title"
-
 -- | The component of a policy describing either a
 -- | reference to a policy or a free-text policy.
 policy :: String
