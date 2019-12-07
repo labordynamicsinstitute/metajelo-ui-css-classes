@@ -21,12 +21,6 @@ pubyear = U.mjWebClass CN.pubyear
 title :: ∀ a. ReactProps a
 title = U.mjWebClass CN.title
 
-missionStatement :: ∀ a. ReactProps a
-missionStatement = U.mjWebClass CN.missionStatement
-
-fundingStatement :: ∀ a. ReactProps a
-fundingStatement = U.mjWebClass CN.fundingStatement
-
 policy :: ∀ a. ReactProps a
 policy = U.mjWebClass CN.policy
 
@@ -78,6 +72,12 @@ location = U.mjWebClass CN.location
 
 sustainability :: ∀ a. ReactProps a
 sustainability = U.mjWebClass CN.sustainability
+
+missionStatement :: ∀ a. ReactProps a
+missionStatement = U.mjWebClass CN.missionStatement
+
+fundingStatement :: ∀ a. ReactProps a
+fundingStatement = U.mjWebClass CN.fundingStatement
 
 identifier :: ∀ a. ReactProps a
 identifier = U.mjWebClass CN.identifier

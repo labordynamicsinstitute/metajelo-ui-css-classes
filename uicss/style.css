@@ -86,3 +86,19 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+.metajelo-ui_sustainability:before {
+  content : "Institution Sustainability: ";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.metajelo-ui_missionStatement:before {
+  content : "Mission Statement URL: ";
+  font-size: 14px;
+}
+
+.metajelo-ui_fundingStatement:before {
+  content :  "Funding Statement URL: ";
+  font-size: 14px;
+}

@@ -24,12 +24,6 @@ pubyear = "pubyear"
 title :: String
 title = "title"
 
-missionStatement :: String
-missionStatement = "missionStatement"
-
-fundingStatement :: String
-fundingStatement = "fundingStatement"
-
 -- | The component of a policy describing either a
 -- | reference to a policy or a free-text policy.
 policy :: String

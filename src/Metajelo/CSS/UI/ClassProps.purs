@@ -57,6 +57,12 @@ location = U.mjUiClass CN.location
 sustainability :: ∀ a. ReactProps a
 sustainability = U.mjUiClass CN.sustainability
 
+missionStatement :: ∀ a. ReactProps a
+missionStatement = U.mjUiClass CN.missionStatement
+
+fundingStatement :: ∀ a. ReactProps a
+fundingStatement = U.mjUiClass CN.fundingStatement
+
 identifier :: ∀ a. ReactProps a
 identifier = U.mjUiClass CN.identifier
 

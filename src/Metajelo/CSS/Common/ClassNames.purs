@@ -37,6 +37,12 @@ location = "location"
 sustainability :: String
 sustainability = "sustainability"
 
+missionStatement :: String
+missionStatement = "missionStatement"
+
+fundingStatement :: String
+fundingStatement = "fundingStatement"
+
 identifier :: String
 identifier = "identifier"
 
