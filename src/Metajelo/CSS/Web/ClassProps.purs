@@ -114,6 +114,12 @@ resourceId = U.mjWebClass CN.resourceId
 resourceType :: ∀ a. ReactProps a
 resourceType = U.mjWebClass CN.resourceType
 
+resourceTypeGen :: ∀ a. ReactProps a
+resourceTypeGen = U.mjWebClass CN.resourceTypeGen
+
+resourceTypeDescr :: ∀ a. ReactProps a
+resourceTypeDescr = U.mjWebClass CN.resourceTypeDescr
+
 -- | Resource Metadata Source
 resourceMDSource :: ∀ a. ReactProps a
 resourceMDSource = U.mjWebClass CN.resourceMDSource

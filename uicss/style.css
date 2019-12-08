@@ -39,6 +39,7 @@
 
 .metajelo-ui_resourceId:before {
   content: "Resource ID";
+  font-weight: bold;
 }
 
 .metajelo-ui_productsHeader:before {
@@ -135,4 +136,17 @@
 
 .metajelo-ui_pubyear:before {
   content : "Publication Year: ";
+}
+
+.metajelo-ui_resourceType:before {
+  content :  " Resource Type ";
+  font-weight: bold;
+}
+
+.metajelo-ui_resourceTypeGen:before {
+  content :  "General Type: ";
+}
+
+.metajelo-ui_resourceTypeDescr:before {
+  content : "Description: ";
 }

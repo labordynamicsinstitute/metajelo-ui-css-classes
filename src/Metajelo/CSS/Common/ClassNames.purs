@@ -56,6 +56,7 @@ idType = "idType"
 relatedId :: String
 relatedId = "relatedId"
 
+-- | Relation type
 relType :: String
 relType = "relType"
 
@@ -84,6 +85,14 @@ resourceId = "resourceId"
 
 resourceType :: String
 resourceType = "resourceType"
+
+-- | The general type of the resource
+resourceTypeGen :: String
+resourceTypeGen = "resourceTypeGen"
+
+-- | Detailed description of the resource type
+resourceTypeDescr :: String
+resourceTypeDescr = "resourceTypeDescr"
 
 -- | Resource Metadata Source
 resourceMDSource :: String

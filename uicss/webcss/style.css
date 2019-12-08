@@ -170,4 +170,8 @@ html {
   content: ": ";
 }
 
+.metajelo_resourceTypeGen:after {
+  content: ": ";
+}
+
 /* End of From icomoon */
