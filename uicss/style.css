@@ -176,6 +176,43 @@
 
 
 /* FIXME: this is not working for some reason: */
-.metajelo-ui_resourceMDSource .metajelo-ui_url:before {
+.metajelo-ui_resourceMDSource.metajelo-ui_url:before {
   content: "URL: ";
+}
+
+.metajelo-ui_institutionContact:before {
+  content :  " Institution Contact ";
+  font-weight: bold;
+}
+
+.metajelo-ui_contactEmail:before {
+  content :  " Email ";
+}
+
+.metajelo-ui_contactType:before {
+  content :  "Contact type: ";
+}
+
+.metajelo-ui_institutionPolicies:before {
+  content :  " Institution Policies ";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.metajelo-ui_institutionPolicy:before {
+  content :  " Institution Policy ";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.metajelo-ui_policy:before {
+  content :  "Policy: ";
+}
+
+.metajelo-ui_policyType:before {
+  content :  "Policy type: ";
+}
+
+.metajelo-ui_applies:before {
+  content :  "Applies to product? ";
 }

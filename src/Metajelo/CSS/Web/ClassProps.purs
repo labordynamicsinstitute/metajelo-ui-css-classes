@@ -12,15 +12,6 @@ productGroup = U.mjWebClass CN.productGroup
 productCitation :: ∀ a. ReactProps a
 productCitation = U.mjWebClass CN.productCitation
 
-policy :: ∀ a. ReactProps a
-policy = U.mjWebClass CN.policy
-
-policyType :: ∀ a. ReactProps a
-policyType = U.mjWebClass CN.policyType
-
-applies :: ∀ a. ReactProps a
-applies = U.mjWebClass CN.applies
-
 appliesMaybe :: ∀ a. ReactProps a
 appliesMaybe = U.mjWebClass CN.appliesMaybe
 
@@ -136,12 +127,27 @@ institutionType = U.mjWebClass CN.institutionType
 institutionContact :: ∀ a. ReactProps a
 institutionContact = U.mjWebClass CN.institutionContact
 
+contactEmail :: ∀ a. ReactProps a
+contactEmail = U.mjWebClass CN.contactEmail
+
+contactType :: ∀ a. ReactProps a
+contactType = U.mjWebClass CN.contactType
+
 institutionPolicy :: ∀ a. ReactProps a
 institutionPolicy = U.mjWebClass CN.institutionPolicy
 
 -- | A list of institutional policies
 institutionPolicies :: ∀ a. ReactProps a
 institutionPolicies = U.mjWebClass CN.institutionPolicies
+
+policy :: ∀ a. ReactProps a
+policy = U.mjWebClass CN.policy
+
+policyType :: ∀ a. ReactProps a
+policyType = U.mjWebClass CN.policyType
+
+applies :: ∀ a. ReactProps a
+applies = U.mjWebClass CN.applies
 
 superOrg :: ∀ a. ReactProps a
 superOrg = U.mjWebClass CN.superOrg

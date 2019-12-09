@@ -129,12 +129,27 @@ institutionType = U.mjUiClass CN.institutionType
 institutionContact :: ∀ a. ReactProps a
 institutionContact = U.mjUiClass CN.institutionContact
 
+contactEmail :: ∀ a. ReactProps a
+contactEmail = U.mjUiClass CN.contactEmail
+
+contactType :: ∀ a. ReactProps a
+contactType = U.mjUiClass CN.contactType
+
 institutionPolicy :: ∀ a. ReactProps a
 institutionPolicy = U.mjUiClass CN.institutionPolicy
 
 -- | A list of institutional policies
 institutionPolicies :: ∀ a. ReactProps a
 institutionPolicies = U.mjUiClass CN.institutionPolicies
+
+policy :: ∀ a. ReactProps a
+policy = U.mjUiClass CN.policy
+
+policyType :: ∀ a. ReactProps a
+policyType = U.mjUiClass CN.policyType
+
+applies :: ∀ a. ReactProps a
+applies = U.mjUiClass CN.applies
 
 superOrg :: ∀ a. ReactProps a
 superOrg = U.mjUiClass CN.superOrg

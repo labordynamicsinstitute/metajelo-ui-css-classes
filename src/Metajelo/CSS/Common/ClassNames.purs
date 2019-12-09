@@ -110,12 +110,32 @@ institutionType = "institutionType"
 institutionContact :: String
 institutionContact = "institutionContact"
 
+contactEmail :: String
+contactEmail = "contactEmail"
+
+contactType :: String
+contactType = "contactType"
+
 institutionPolicy :: String
 institutionPolicy = "institutionPolicy"
 
 -- | A list of institutional policies
 institutionPolicies :: String
 institutionPolicies = "institutionPolicies"
+
+-- | The component of a policy describing either a
+-- | reference to a policy or a free-text policy.
+policy :: String
+policy = "policy"
+
+policyType :: String
+policyType = "policyType"
+
+-- | Whether or not the given policy applies to a product;
+-- | this general class encompasses all alternatives to
+-- | the possibility.
+applies :: String
+applies = "applies"
 
 -- | Optional super organization name
 superOrg :: String
@@ -134,3 +154,4 @@ formatList = "formatList"
 -- | Generic URL class for Metajelo
 url :: String
 url = "url"
+

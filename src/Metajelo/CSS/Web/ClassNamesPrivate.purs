@@ -15,20 +15,6 @@ productGroup = "productGroup"
 productCitation :: String
 productCitation = "productCitation"
 
--- | The component of a policy describing either a
--- | reference to a policy or a free-text policy.
-policy :: String
-policy = "policy"
-
-policyType :: String
-policyType = "policyType"
-
--- | Whether or not the given policy applies to a product;
--- | this general class encompasses all alternatives to
--- | the possibility.
-applies :: String
-applies = "applies"
-
 -- | The given policy *may* apply to the product; it is
 -- | unverified or undetermined.
 appliesMaybe :: String
