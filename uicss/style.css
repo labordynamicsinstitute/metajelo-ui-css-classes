@@ -176,7 +176,7 @@
 
 
 /* FIXME: this is not working for some reason: */
-.metajelo-ui_resourceMDSource.metajelo-ui_url:before {
+.metajelo-ui_resourceMDSource .metajelo-ui_url:before {
   content: "URL: ";
 }
 
