@@ -34,7 +34,7 @@ appliesInfo :: ∀ a. ReactProps a
 appliesInfo = U.mjWebClass CN.appliesInfo
 
 idUrl :: ∀ a. ReactProps a
-idUrl = U.mjWebClass CN.idUrl
+idUrl = U.cList [CN.url, CN.idUrl]
 
 errorDisplayBox :: ∀ a. ReactProps a
 errorDisplayBox = U.mjWebClass CN.errorDisplayBox
@@ -68,10 +68,10 @@ sustainability :: ∀ a. ReactProps a
 sustainability = U.mjWebClass CN.sustainability
 
 missionStatement :: ∀ a. ReactProps a
-missionStatement = U.mjWebClass CN.missionStatement
+missionStatement = U.cList [CN.url, CN.missionStatement]
 
 fundingStatement :: ∀ a. ReactProps a
-fundingStatement = U.mjWebClass CN.fundingStatement
+fundingStatement =  U.cList [CN.url, CN.fundingStatement]
 
 identifier :: ∀ a. ReactProps a
 identifier = U.mjWebClass CN.identifier
@@ -148,3 +148,12 @@ superOrg = U.mjWebClass CN.superOrg
 
 versioning :: ∀ a. ReactProps a
 versioning = U.mjWebClass CN.versioning
+
+format :: ∀ a. ReactProps a
+format = U.mjWebClass CN.format
+
+formatList :: ∀ a. ReactProps a
+formatList = U.mjWebClass CN.formatList
+
+url :: ∀ a. ReactProps a
+url = U.mjWebClass CN.url

@@ -26,3 +26,7 @@ prodPreview = "prodPreview"
 -- | requires a complete product
 locPreview :: String
 locPreview = "locPreview"
+
+-- | Empty tooltip "anchor" class.
+tooltip :: String
+tooltip = "tooltip"

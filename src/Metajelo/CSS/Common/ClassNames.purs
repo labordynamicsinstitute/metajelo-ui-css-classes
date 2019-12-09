@@ -123,3 +123,14 @@ superOrg = "superOrg"
 
 versioning :: String
 versioning = "versioning"
+
+format :: String
+format = "format"
+
+-- | A list of formats
+formatList :: String
+formatList = "formatList"
+
+-- | Generic URL class for Metajelo
+url :: String
+url = "url"

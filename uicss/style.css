@@ -150,3 +150,30 @@
 .metajelo-ui_resourceTypeDescr:before {
   content : "Description: ";
 }
+
+.metajelo-ui_format:before {
+  content : "Format: ";
+}
+
+.metajelo-ui_formatList:before {
+  content : " Formats ";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*
+  TODO: add to formatList tooltip:
+
+    tipText = "Technical format of the resource." <>
+    "Use file extension or MIME type where possible."
+
+*/
+
+.metajelo-ui_resourceMDSource:before {
+  content: " Resource Metadata Source ";
+  font-weight: bold;
+}
+
+.metajelo-ui_resourceMDSource metajelo-ui_url:before {
+  content: "URL: ";
+}

@@ -32,6 +32,9 @@ prodPreview = U.mjUiClass CN.prodPreview
 locPreview :: ∀ a. ReactProps a
 locPreview = U.mjUiClass CN.locPreview
 
+tooltip :: ∀ a. ReactProps a
+tooltip = U.mjUiClass CN.tooltip
+
 ------- Common classes follow ----------------------------
 
 record :: ∀ a. ReactProps a
@@ -138,3 +141,12 @@ superOrg = U.mjUiClass CN.superOrg
 
 versioning :: ∀ a. ReactProps a
 versioning = U.mjUiClass CN.versioning
+
+format :: ∀ a. ReactProps a
+format = U.mjUiClass CN.format
+
+formatList :: ∀ a. ReactProps a
+formatList = U.mjUiClass CN.formatList
+
+url :: ∀ a. ReactProps a
+url = U.mjUiClass CN.url
