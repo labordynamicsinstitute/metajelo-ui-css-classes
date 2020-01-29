@@ -52,6 +52,10 @@ productList = U.mjWebClass CN.productList
 productsHeader :: ∀ a. ReactProps a
 productsHeader = U.mjWebClass CN.productsHeader
 
+-- | A header for the list of supplementary products and the associated header
+products :: ∀ a. ReactProps a
+products = U.mjWebClass CN.products
+
 location :: ∀ a. ReactProps a
 location = U.mjWebClass CN.location
 
@@ -86,6 +90,10 @@ relatedIdList = U.mjWebClass CN.relatedIdList
 -- | A header for a list of related identifiers
 relatedIdsHeader :: ∀ a. ReactProps a
 relatedIdsHeader = U.mjWebClass CN.relatedIdsHeader
+
+-- | A list of related identifiers and the associated header
+relatedIds :: ∀ a. ReactProps a
+relatedIds = U.mjWebClass CN.relatedIds
 
 basicMetadata :: ∀ a. ReactProps a
 basicMetadata = U.mjWebClass CN.basicMetadata

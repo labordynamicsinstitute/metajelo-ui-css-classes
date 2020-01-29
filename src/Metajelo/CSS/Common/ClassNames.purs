@@ -31,6 +31,11 @@ productList = "productList"
 productsHeader :: String
 productsHeader = "productsHeader"
 
+-- | The products widget, which includes the products
+-- | header and all products (`productsHeader` + `productList`).
+products :: String
+products = "products"
+
 location :: String
 location = "location"
 
@@ -67,6 +72,12 @@ relatedIdList = "relatedIdList"
 -- | A header for a list of related identifiers
 relatedIdsHeader :: String
 relatedIdsHeader = "relatedIdsHeader"
+
+-- | The `relatedIds` widget, which includes the related Ids
+-- | header and all associated related ids
+-- | (`relatedIdsHeader` + `relatedIdList`).
+relatedIds :: String
+relatedIds = "relatedIds"
 
 basicMetadata :: String
 basicMetadata = "basicMetadata"
