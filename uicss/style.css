@@ -18,7 +18,9 @@
 .metajelo-ui_relType:before {
   content: " Relation Type ";
 }
-
+.metajelo-ui_date:before {
+  content: "Date: ";
+}
 .metajelo-ui_record:before {
   content: "Metajelo Record Form ";
   font-size: 20px;
