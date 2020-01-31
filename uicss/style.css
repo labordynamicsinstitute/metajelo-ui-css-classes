@@ -3,6 +3,11 @@
 **/
 @import url('/css/webcss/style.css');
 
+/**
+  Include sass-generated styles
+**/
+@import url('/css/metajelo-styles.css');
+
 .metajelo-ui_id:before {
   content: "Id: ";
 }
