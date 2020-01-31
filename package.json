@@ -3,7 +3,7 @@
   "description": "CSS class names for the Metajelo UI",
   "scripts": {
     "clean": "rimraf output && rimraf .pulp-cache",
-    "build": "npx sass sass/metajelo-styles.sass uicss/metajelo-styles.css && spago build"
+    "build": "npx sass uicss/sass/metajelo-styles.sass uicss/metajelo-styles.css && spago build"
   },
   "author": "Brandon Barker <brandon.barker@cornell.edu> (https://github.com/bbarker)",
   "license": "MPL-2.0",
