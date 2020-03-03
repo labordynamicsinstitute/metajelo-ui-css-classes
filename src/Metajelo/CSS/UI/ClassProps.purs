@@ -35,6 +35,15 @@ locPreview = U.mjUiClass CN.locPreview
 tooltip :: ∀ a. ReactProps a
 tooltip = U.mjUiClass CN.tooltip
 
+downloadBtn :: ∀ a. ReactProps a
+downloadBtn = U.mjUiClass CN.downloadBtn
+
+clipBtn :: ∀ a. ReactProps a
+clipBtn = U.mjUiClass CN.clipBtn
+
+previewButtons :: ∀ a. ReactProps a
+previewButtons = U.mjUiClass CN.previewButtons
+
 ------- Common classes follow ----------------------------
 
 record :: ∀ a. ReactProps a

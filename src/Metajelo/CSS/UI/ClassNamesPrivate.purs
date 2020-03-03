@@ -30,3 +30,15 @@ locPreview = "locPreview"
 -- | Empty tooltip "anchor" class.
 tooltip :: String
 tooltip = "tooltip"
+
+downloadBtn :: String
+downloadBtn = "downloadBtn"
+
+-- | Copy-to-clipboard button
+clipBtn :: String
+clipBtn = "clipBtn"
+
+-- | Buttons for the the metajelo preview, including `downloadBtn`
+-- | and `clipBtn`.
+previewButtons :: String
+previewButtons = "previewButtons"
