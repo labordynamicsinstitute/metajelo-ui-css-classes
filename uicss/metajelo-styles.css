@@ -130,6 +130,10 @@ button:active:before {
   opacity: 0;
 }
 
+button:disabled {
+  background: grey;
+}
+
 li button {
   background-size: 100%;
   background-image: -webkit-linear-gradient(#fcfcfc, #e5e5e5);

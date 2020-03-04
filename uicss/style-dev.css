@@ -1,0 +1,15 @@
+/**
+  Include UI css styles
+**/
+@import url('style.css');
+
+
+/**
+  metajelo-ui also relies on metajelo-web css:
+**/
+@import url('webcss/style.css');
+
+/**
+  Include sass-generated styles
+**/
+@import url('metajelo-styles.css');
