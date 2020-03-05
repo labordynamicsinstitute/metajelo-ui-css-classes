@@ -95,6 +95,7 @@ button
   color: white
   text-transform: uppercase
 button:disabled
+  pointer-events: auto
   background: grey
 li button
   @include mixins.gradient-animation($light-grey,$medium-grey,0.45s)
@@ -162,6 +163,38 @@ li button
     color: #595959
   li:last-child
     border-bottom: 0px
+
+/* tooltips */
+
+.abstractTooltip
+  display: block
+  text-align: center
+  background-color: #000
+  color: #fff
+  text-transform: none
+  border-radius: 4px
+  padding: 2px
+  max-width: none
+  white-space: nowrap
+
+  padding-left: 15px
+  padding-right: 15px
+
+  position: absolute
+  bottom: -30px
+  left: 40px
+  margin: 0.5rem 0 0 0.5rem
+  overflow: visible
+  z-index: 99999999
+
+$docNotReadyMessage: "Metajelo doc is incomplete"
+.metajelo-ui_clipBtn:hover:disabled:after
+  @extend .abstractTooltip
+  content: $docNotReadyMessage
+
+.metajelo-ui_downloadBtn:hover:disabled:after
+  @extend .abstractTooltip
+  content: $docNotReadyMessage
 
 //small screens
 @media all and (min-width: 480px)

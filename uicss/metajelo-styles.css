@@ -127,6 +127,7 @@ button:active:before {
 }
 
 button:disabled {
+  pointer-events: auto;
   background: grey;
 }
 
@@ -237,6 +238,35 @@ li button:active:before {
 .metajelo-ui_date li:last-child,
 .metajelo-ui_recordId li:last-child {
   border-bottom: 0px;
+}
+
+/* tooltips */
+.abstractTooltip, .metajelo-ui_downloadBtn:hover:disabled:after, .metajelo-ui_clipBtn:hover:disabled:after {
+  display: block;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  text-transform: none;
+  border-radius: 4px;
+  padding: 2px;
+  max-width: none;
+  white-space: nowrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  bottom: -30px;
+  left: 40px;
+  margin: 0.5rem 0 0 0.5rem;
+  overflow: visible;
+  z-index: 99999999;
+}
+
+.metajelo-ui_clipBtn:hover:disabled:after {
+  content: "Metajelo doc is incomplete";
+}
+
+.metajelo-ui_downloadBtn:hover:disabled:after {
+  content: "Metajelo doc is incomplete";
 }
 
 /*# sourceMappingURL=metajelo-styles.css.map */
