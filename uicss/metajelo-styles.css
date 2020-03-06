@@ -292,16 +292,8 @@ li button:active:before {
   flex-direction: row;
 }
 
-.metajelo-ui_clipBtn {
-  flex-grow: 0;
-}
-
 .metajelo-ui_clipBtn:hover:disabled:after {
   content: "Metajelo doc is incomplete";
-}
-
-.metajelo-ui_downloadBtn {
-  flex-grow: 0;
 }
 
 .metajelo-ui_downloadBtn:hover:disabled:after {
