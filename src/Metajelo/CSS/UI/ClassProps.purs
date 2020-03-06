@@ -32,9 +32,6 @@ prodPreview = U.mjUiClass CN.prodPreview
 locPreview :: ∀ a. ReactProps a
 locPreview = U.mjUiClass CN.locPreview
 
-tooltip :: ∀ a. ReactProps a
-tooltip = U.mjUiClass CN.tooltip
-
 downloadBtn :: ∀ a. ReactProps a
 downloadBtn = U.mjUiClass CN.downloadBtn
 

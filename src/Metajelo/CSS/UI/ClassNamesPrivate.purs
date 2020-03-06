@@ -27,10 +27,6 @@ prodPreview = "prodPreview"
 locPreview :: String
 locPreview = "locPreview"
 
--- | Empty tooltip "anchor" class.
-tooltip :: String
-tooltip = "tooltip"
-
 downloadBtn :: String
 downloadBtn = "downloadBtn"
 
