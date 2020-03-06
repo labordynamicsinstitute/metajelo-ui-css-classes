@@ -4,10 +4,17 @@ $secondary-color: #1c8bd6
 $light-grey: #fcfcfc
 $medium-grey: #e5e5e5
 $dark-grey: #404040
+$disabledButtonAlpha: 0.4
 
 //included sass
 @use 'linear-gradient'
 @use 'mixins'
+
+@function translucentBackgroundColorMixin($color, $alpha)
+  @return rgba(red($color), green($color), blue($color), $alpha)
+
+$disabledPrimaryColor: translucentBackgroundColorMixin($primary-color, $disabledButtonAlpha)
+$disabledSecondaryColor: translucentBackgroundColorMixin($secondary-color, $disabledButtonAlpha)
 
 //defaults and resets
 html
@@ -82,7 +89,7 @@ select:focus
 select option
   font-weight: normal
 
-
+$disabledButtonAlpha: 0.4
 /*buttons*/
 button
   @include mixins.gradient-animation($primary-color,$secondary-color,0.45s)
@@ -95,8 +102,7 @@ button
   color: white
   text-transform: uppercase
 button:disabled
-  pointer-events: auto
-  background: grey
+  @include mixins.gradient-animation($disabledPrimaryColor, $disabledSecondaryColor, 0.45s)
 li button
   @include mixins.gradient-animation($light-grey,$medium-grey,0.45s)
   padding: .25rem 1rem
@@ -165,11 +171,13 @@ li button
     border-bottom: 0px
 
 /* tooltips */
+// TODO: look into `speak` style if needed
 
-.abstractTooltip
+//TODO: turn this into a mixin
+.metajelo-ui_abstractTooltip
   display: block
   text-align: center
-  background-color: #000
+  background-color: $dark-grey
   color: #fff
   text-transform: none
   border-radius: 4px
@@ -185,15 +193,15 @@ li button
   left: 40px
   margin: 0.5rem 0 0 0.5rem
   overflow: visible
-  z-index: 99999999
+  z-index: 999
 
 $docNotReadyMessage: "Metajelo doc is incomplete"
 .metajelo-ui_clipBtn:hover:disabled:after
-  @extend .abstractTooltip
+  @extend .metajelo-ui_abstractTooltip
   content: $docNotReadyMessage
 
 .metajelo-ui_downloadBtn:hover:disabled:after
-  @extend .abstractTooltip
+  @extend .metajelo-ui_abstractTooltip
   content: $docNotReadyMessage
 
 //small screens

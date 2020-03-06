@@ -90,7 +90,7 @@ button {
   background-image: -webkit-linear-gradient(#046baf, #1c8bd6);
   background-image: linear-gradient(#046baf, #1c8bd6);
   position: relative;
-  z-index: 100;
+  z-index: auto;
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
@@ -127,8 +127,34 @@ button:active:before {
 }
 
 button:disabled {
-  pointer-events: auto;
-  background: grey;
+  background-size: 100%;
+  background-image: -webkit-linear-gradient(rgba(4, 107, 175, 0.4), rgba(28, 139, 214, 0.4));
+  background-image: linear-gradient(rgba(4, 107, 175, 0.4), rgba(28, 139, 214, 0.4));
+  position: relative;
+  z-index: auto;
+}
+button:disabled:before {
+  border-radius: inherit;
+  background-image: -webkit-linear-gradient(rgba(28, 139, 214, 0.4), rgba(4, 107, 175, 0.4));
+  background-image: linear-gradient(rgba(28, 139, 214, 0.4), rgba(4, 107, 175, 0.4));
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -100;
+  -moz-transition: opacity 0.45s ease-in-out;
+  -webkit-transition: opacity 0.45s ease-in-out;
+  transition: opacity 0.45s ease-in-out;
+}
+button:disabled:hover:before {
+  opacity: 1;
+}
+button:disabled:active:before {
+  opacity: 0;
 }
 
 li button {
@@ -136,7 +162,7 @@ li button {
   background-image: -webkit-linear-gradient(#fcfcfc, #e5e5e5);
   background-image: linear-gradient(#fcfcfc, #e5e5e5);
   position: relative;
-  z-index: 100;
+  z-index: auto;
   padding: 0.25rem 1rem;
   color: black;
   font-size: 0.8rem;
@@ -241,10 +267,10 @@ li button:active:before {
 }
 
 /* tooltips */
-.abstractTooltip, .metajelo-ui_downloadBtn:hover:disabled:after, .metajelo-ui_clipBtn:hover:disabled:after {
+.metajelo-ui_abstractTooltip, .metajelo-ui_downloadBtn:hover:disabled:after, .metajelo-ui_clipBtn:hover:disabled:after {
   display: block;
   text-align: center;
-  background-color: #000;
+  background-color: #404040;
   color: #fff;
   text-transform: none;
   border-radius: 4px;
@@ -258,7 +284,7 @@ li button:active:before {
   left: 40px;
   margin: 0.5rem 0 0 0.5rem;
   overflow: visible;
-  z-index: 99999999;
+  z-index: 999;
 }
 
 .metajelo-ui_clipBtn:hover:disabled:after {

@@ -12,7 +12,7 @@
     background-image: -webkit-linear-gradient($start, $end)
     background-image: linear-gradient($start, $end)
     position: relative
-    z-index: 100
+    z-index: auto
     &:before
       border-radius: inherit
       background-image: -webkit-linear-gradient($end, $start)
@@ -35,3 +35,5 @@
     &:active
        &:before
          opacity: 0
+@mixin translucentBackgroundColorMixin($alpha, $color)
+    background-color: rgba(red($color), green($color), blue($color), $alpha)
