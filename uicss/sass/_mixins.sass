@@ -37,3 +37,24 @@
          opacity: 0
 @mixin translucentBackgroundColorMixin($alpha, $color)
     background-color: rgba(red($color), green($color), blue($color), $alpha)
+
+@mixin abstractTooltip($background-color)
+  display: block
+  text-align: center
+  background-color: $background-color
+  color: #fff
+  text-transform: none
+  border-radius: 4px
+  padding: 2px
+  max-width: none
+  white-space: nowrap
+
+  padding-left: 15px
+  padding-right: 15px
+
+  position: absolute
+  bottom: -30px
+  left: 40px
+  margin: 0.5rem 0 0 0.5rem
+  overflow: visible
+  z-index: 999

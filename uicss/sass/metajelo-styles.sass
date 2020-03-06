@@ -173,28 +173,6 @@ li button
 /* tooltips */
 // TODO: look into `speak` style if needed
 
-//TODO: turn this into a mixin
-.metajelo-ui_abstractTooltip
-  display: block
-  text-align: center
-  background-color: $dark-grey
-  color: #fff
-  text-transform: none
-  border-radius: 4px
-  padding: 2px
-  max-width: none
-  white-space: nowrap
-
-  padding-left: 15px
-  padding-right: 15px
-
-  position: absolute
-  bottom: -30px
-  left: 40px
-  margin: 0.5rem 0 0 0.5rem
-  overflow: visible
-  z-index: 999
-
 .metajelo-ui_previewButtons
   display: flex
   flex-direction: row
@@ -202,11 +180,11 @@ li button
 $docNotReadyMessage: "Metajelo doc is incomplete"
 
 .metajelo-ui_clipBtn:hover:disabled:after
-  @extend .metajelo-ui_abstractTooltip
+  @include mixins.abstractTooltip($dark-grey)
   content: $docNotReadyMessage
 
 .metajelo-ui_downloadBtn:hover:disabled:after
-  @extend .metajelo-ui_abstractTooltip
+  @include mixins.abstractTooltip($dark-grey)
   content: $docNotReadyMessage
 
 //small screens
