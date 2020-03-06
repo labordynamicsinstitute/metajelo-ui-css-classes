@@ -287,8 +287,21 @@ li button:active:before {
   z-index: 999;
 }
 
+.metajelo-ui_previewButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.metajelo-ui_clipBtn {
+  flex-grow: 0;
+}
+
 .metajelo-ui_clipBtn:hover:disabled:after {
   content: "Metajelo doc is incomplete";
+}
+
+.metajelo-ui_downloadBtn {
+  flex-grow: 0;
 }
 
 .metajelo-ui_downloadBtn:hover:disabled:after {

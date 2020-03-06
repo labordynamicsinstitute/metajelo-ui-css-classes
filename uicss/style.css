@@ -33,7 +33,7 @@
 }
 
 .metajelo-ui_recPreview:before {
-  content: "Metajelo Record preview:";
+  content: "Metajelo Record preview";
   font-size: 16px;
   font-weight: bold;
 }
@@ -68,7 +68,7 @@
 }
 
 .metajelo-ui_prodPreview:before {
-  content: "Product preview:";
+  content: "Product preview";
   font-size: 14px;
   font-weight: bold;
 }
@@ -106,7 +106,7 @@
 }
 
 .metajelo-ui_locPreview:before {
-  content: "Location preview:";
+  content: "Location preview";
   font-size: 14px;
   font-weight: bold;
 }
