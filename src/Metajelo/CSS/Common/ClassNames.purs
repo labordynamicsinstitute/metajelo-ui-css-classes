@@ -85,11 +85,17 @@ basicMetadata = "basicMetadata"
 creator :: String
 creator = "creator"
 
+creatorList :: String
+creatorList = "creatorList"
+
 pubyear :: String
 pubyear = "pubyear"
 
 title :: String
 title = "title"
+
+titleList :: String
+titleList = "titleList"
 
 resourceId :: String
 resourceId = "resourceId"

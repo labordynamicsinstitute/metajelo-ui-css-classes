@@ -109,11 +109,17 @@ basicMetadata = U.mjUiClass CN.basicMetadata
 creator :: ∀ a. ReactProps a
 creator = U.mjUiClass CN.creator
 
+creatorList :: ∀ a. ReactProps a
+creatorList = U.mjUiClass CN.creatorList
+
 pubyear :: ∀ a. ReactProps a
 pubyear = U.mjUiClass CN.pubyear
 
 title :: ∀ a. ReactProps a
 title = U.mjUiClass CN.title
+
+titleList :: ∀ a. ReactProps a
+titleList = U.mjUiClass CN.titleList
 
 resourceId :: ∀ a. ReactProps a
 resourceId = U.mjUiClass CN.resourceId
