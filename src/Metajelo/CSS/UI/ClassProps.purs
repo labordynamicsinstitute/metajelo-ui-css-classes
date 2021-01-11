@@ -19,6 +19,20 @@ date = U.mjUiClass CN.date
 recPreview :: ∀ a. ReactProps a
 recPreview = U.mjUiClass CN.recPreview
 
+-- | Includes all editor fields, but does not include the
+-- | preview
+recEditor :: ∀ a. ReactProps a
+recEditor = U.mjUiClass CN.recEditor
+
+-- | Includes data that doesn't directly relate to user-input,
+-- | such as document preivew, errors, or data from external sites.
+sideBar :: ∀ a. ReactProps a
+sideBar = U.mjUiClass CN.sideBar
+
+-- | Information and errors related to datacite retrieval
+dataCite :: ∀ a. ReactProps a
+dataCite = U.mjUiClass CN.dataCite
+
 -- | For the `<div>` containing the metajelo-web preview
 -- | for a single supplementary product;
 -- | requires a complete product

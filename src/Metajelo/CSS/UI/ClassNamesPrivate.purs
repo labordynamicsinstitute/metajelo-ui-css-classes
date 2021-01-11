@@ -14,6 +14,20 @@ date = "date"
 recPreview :: String
 recPreview = "recPreview"
 
+-- | Includes all editor fields, but does not include the
+-- | preview
+recEditor :: String
+recEditor = "recEditor"
+
+-- | Includes data that doesn't directly relate to user-input,
+-- | such as document preivew, errors, or data from external sites.
+sideBar :: String
+sideBar = "sideBar"
+
+-- | Information and errors related to datacite retrieval
+dataCite :: String
+dataCite = "dataCite"
+
 -- | For the `<div>` containing the metajelo-web preview
 -- | for a single supplementary product;
 -- | requires a complete product
