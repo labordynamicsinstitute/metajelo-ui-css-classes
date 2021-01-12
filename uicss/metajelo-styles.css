@@ -193,6 +193,10 @@ li button:active:before {
 }
 
 /*page styles*/
+.metajelo-ui_record {
+  display: flex;
+  flex-direction: column;
+}
 .metajelo-ui_record:before {
   color: #046baf;
   font-size: 2rem;
@@ -281,15 +285,13 @@ li button:active:before {
   flex-direction: row;
 }
 
-.metajelo-ui_sideBar {
-  display: flex;
-  flex-direction: row;
-  reisze: horizontal;
-}
-
 .metajelo-ui_recEditor {
   display: flex;
   flex-direction: row;
+}
+
+.metajelo-ui_sideBar {
+  reisze: horizontal;
 }
 
 .metajelo-ui_clipBtn:hover:disabled:after {

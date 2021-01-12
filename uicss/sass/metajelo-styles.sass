@@ -112,6 +112,8 @@ li button
 
 /*page styles*/
 .metajelo-ui_record
+  display: flex
+  flex-direction: column
   &:before
     color: $primary-color
     font-size: 2rem
@@ -180,14 +182,12 @@ li button
   display: flex
   flex-direction: row
 
-.metajelo-ui_sideBar
-  display: flex
-  flex-direction: row
-  reisze: horizontal
-
 .metajelo-ui_recEditor
   display: flex
   flex-direction: row
+
+.metajelo-ui_sideBar
+  reisze: horizontal
 
 $docNotReadyMessage: "Metajelo doc is incomplete"
 
