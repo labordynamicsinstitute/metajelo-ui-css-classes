@@ -286,15 +286,6 @@ li button:active:before {
   flex-direction: row;
 }
 
-.metajelo-ui_recEditor {
-  display: flex;
-  flex-direction: row;
-}
-
-.metajelo-ui_sideBar {
-  reisze: horizontal;
-}
-
 .metajelo-ui_clipBtn:hover:disabled:after {
   display: block;
   text-align: center;
