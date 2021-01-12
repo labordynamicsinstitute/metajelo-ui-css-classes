@@ -8,6 +8,11 @@ page = "page"
 date :: String
 date = "date"
 
+-- | Child of `record in the editor;
+-- | a flex container designed to not have any before/after pseudo-elements.
+recFlexBox :: String
+recFlexBox = "recFlexBox"
+
 -- | For the `<div>` containing the metajelo-web record
 -- | preview; note that metajelo-web will only work on
 -- | a completed record

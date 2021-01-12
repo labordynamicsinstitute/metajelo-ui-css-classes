@@ -13,6 +13,11 @@ page = U.mjUiClass CN.page
 date :: ∀ a. ReactProps a
 date = U.mjUiClass CN.date
 
+-- | Child of `record in the editor;
+-- | a flex container designed to not have any before/after pseudo-elements.
+recFlexBox :: ∀ a. ReactProps a
+recFlexBox = U.mjUiClass CN.recFlexBox
+
 -- | For the `<div>` containing the metajelo-web record
 -- | preview; note that metajelo-web will only work on
 -- | a completed record
