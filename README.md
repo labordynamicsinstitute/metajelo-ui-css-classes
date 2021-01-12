@@ -39,3 +39,13 @@ npm run build
 command in the container with the CWD mounted and then exit. Alternatively if
 you want to issue multiple commands in the container quickly, you can run
 `./psc.sh bash`.
+
+## Testing the CSS
+
+A snapshot of [metajelo-ui](https://github.com/labordynamicsinstitute/metajelo-ui)'s
+DOM is included in `index.html`, with a few modifications
+in the `<head>` element to make it work with the unpacked CSS in this repository
+(see the comments in `index.html` for details if updating the DOM snapshot).
+Note that since [metajelo-web](https://github.com/labordynamicsinstitute/metajelo-web)
+is included in the metajelo-ui repository as a dependency,
+the CSS styling for metajelo-web is included in the preview as well.
