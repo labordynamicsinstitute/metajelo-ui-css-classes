@@ -29,6 +29,24 @@ recEditor = "recEditor"
 sideBar :: String
 sideBar = "sideBar"
 
+sideBarNav :: String
+sideBarNav = "sideBarNav"
+
+sideBarTab :: String
+sideBarTab = "sideBarTab"
+
+-- | The structure of the `<div>` elements associated to `sideBarGrid`
+-- | and related classes was inspired by [PureCSS](https://purecss.io).
+sideBarGrid :: String
+sideBarGrid = "sideBarGrid"
+
+sideBarMenu :: String
+sideBarMenu = "sideBarMenu"
+
+sideBarCol :: String
+sideBarCol = "sideBarCol"
+
+
 -- | Information and errors related to datacite retrieval
 dataCite :: String
 dataCite = "dataCite"

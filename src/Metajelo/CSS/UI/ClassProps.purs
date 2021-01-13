@@ -34,6 +34,23 @@ recEditor = U.mjUiClass CN.recEditor
 sideBar :: ∀ a. ReactProps a
 sideBar = U.mjUiClass CN.sideBar
 
+sideBarNav :: ∀ a. ReactProps a
+sideBarNav = U.mjUiClass CN.sideBar
+
+sideBarTab :: ∀ a. ReactProps a
+sideBarTab = U.mjUiClass CN.sideBarTab
+
+-- | The structure of the `<div>` elements associated to `sideBarGrid`
+-- | and related classes was inspired by [PureCSS](https://purecss.io).
+sideBarGrid :: ∀ a. ReactProps a
+sideBarGrid = U.mjUiClass CN.sideBarGrid
+
+sideBarMenu :: ∀ a. ReactProps a
+sideBarMenu = U.mjUiClass CN.sideBarMenu
+
+sideBarCol :: ∀ a. ReactProps a
+sideBarCol = U.mjUiClass CN.sideBarCol
+
 -- | Information and errors related to datacite retrieval
 dataCite :: ∀ a. ReactProps a
 dataCite = U.mjUiClass CN.dataCite
