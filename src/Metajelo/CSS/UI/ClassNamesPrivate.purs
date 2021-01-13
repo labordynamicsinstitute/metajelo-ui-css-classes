@@ -75,3 +75,11 @@ clipBtn = "clipBtn"
 -- | and `clipBtn`.
 previewButtons :: String
 previewButtons = "previewButtons"
+
+-- | Button to add an item
+addItem :: String
+addItem = "addItem"
+
+-- | Button to delete the current item
+deleteItem :: String
+deleteItem = "deleteItem"

@@ -77,6 +77,14 @@ clipBtn = U.mjUiClass CN.clipBtn
 previewButtons :: ∀ a. ReactProps a
 previewButtons = U.mjUiClass CN.previewButtons
 
+-- | Button to add an item
+addItem :: ∀ a. ReactProps a
+addItem = U.mjUiClass CN.addItem
+
+-- | Button to delete the current item
+deleteItem :: ∀ a. ReactProps a
+deleteItem = U.mjUiClass CN.deleteItem
+
 ------- Common classes follow ----------------------------
 
 record :: ∀ a. ReactProps a
