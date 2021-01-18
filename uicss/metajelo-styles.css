@@ -251,7 +251,7 @@ button:disabled:active:before {
   flex-direction: row;
 }
 
-.metajelo-ui_sideBarCol {
+div.metajelo-ui_sideBar {
   max-height: 90vh;
   overflow: auto;
   position: -webkit-sticky;
