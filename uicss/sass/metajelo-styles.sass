@@ -44,7 +44,6 @@ optgroup
   margin: .25rem 0
   background: transparent
   vertical-align: middle
-  width: 100%
   max-width: 100%
   border-color: $medium-grey
   border-radius: .25rem
@@ -103,12 +102,7 @@ button
   text-transform: uppercase
 button:disabled
   @include mixins.gradient-animation($disabledPrimaryColor, $disabledSecondaryColor, 0.45s)
-li button
-  @include mixins.gradient-animation($light-grey,$medium-grey,0.45s)
-  padding: .25rem 1rem
-  color: black
-  font-size: .8rem
-  border-radius: .35rem
+
 
 /*page styles*/
 .metajelo-ui_record
@@ -149,20 +143,16 @@ li button
 .metajelo-ui_page
   margin: 1rem
   padding: .5rem 0
-  border-width: .25rem
-  border-style: solid
-  border-color: $medium-grey
-  border-radius: .5rem
+
 .metajelo-ui_sideBar,
 .metajelo-ui_dataCite,
 .metajelo-ui_recPreview,
 .metajelo-ui_recEditor,
 .metajelo-ui_products,
 .metajelo-ui_relatedIds,
-.metajelo-ui_date,
 .metajelo-ui_recordId
   padding: 2rem 1rem
-  border-top: 2px solid $medium-grey
+  //border-top: 2px solid $medium-grey
   margin-top: 1rem
   li
     list-style: none
@@ -173,6 +163,9 @@ li button
   li:last-child
     border-bottom: 0px
 
+.metajelo-ui_date
+    margin-top: 1rem
+
 /* tooltips */
 // TODO: look into `speak` style if needed
 
@@ -180,17 +173,130 @@ li button
   display: flex
   flex-direction: row
 
+.metajelo-ui_previewButtons
+   div
+      margin-right: 10px
+
 .metajelo-ui_recFlexBox
   display: flex
   flex-direction: row
 
-.metajelo-ui_sideBar
-  max-height: 85vh
+.metajelo-ui_sideBarCol
+  max-height: 90vh
   overflow: auto
   position: -webkit-sticky /* Safari */
   position: sticky
   top: 0
   resize: both
+
+.metajelo-ui_relatedId
+  display: flex
+  flex-direction: row
+
+.metajelo-ui_relatedId 
+   div
+     margin: auto
+
+/* tabs */
+
+nav.metajelo-ui_sideBar 
+    border: 2px solid #e5e5e5
+    overflow: hidden
+    background-color: #f1f1f1
+    padding: 0
+    margin: 0
+
+.metajelo-ui_sideBarTab
+    display: inline
+    float: left
+    border: none
+    outline: none
+    cursor: pointer
+    padding: 14px 16px
+    transition: 0.3s
+    &:hover   
+      background-color: #ddd
+    &:active
+      background-color: #ccc    
+
+.metajelo-ui_recPreview
+    border: 2px solid #e5e5e5
+    border-top: none
+    margin-top: 0
+    background-color: #FBFBFB
+
+.metajelo-ui_relatedIdList, .metajelo-ui_titleList, .metajelo-ui_creatorList, .metajelo-ui_formatList, .metajelo-ui_productList
+    ul
+        padding-inline-start: 0
+
+/* delete buttons */
+
+.metajelo-ui_deleteItem
+    @include mixins.gradient-animation($light-grey,$medium-grey,0.45s)
+    padding: .25rem 1rem
+    color: black
+    cursor: pointer
+    font-size: .8rem
+    text-transform: uppercase
+    border-radius: .5rem
+
+.metajelo-ui_identifier, .metajelo-ui_institutionContact
+    display: flex
+    div
+      margin: auto
+
+.metajelo-ui_sustainability      
+    display: flex
+    span
+      margin: auto
+
+/* Collapsible */
+.metajelo-ui_relatedIdsHeader, .metajelo-ui_productsHeader
+    background-color: #eee
+    color: #444
+    cursor: pointer
+    padding: 18px
+    width: 100%
+    border: none
+    text-align: left
+    outline: none
+    font-size: 15px
+    &:hover    
+      background-color: #ccc 
+    &:after
+        content: '\02795' /* Unicode character for "plus" sign (+) */
+        font-size: 13px
+        color: white
+        float: right
+        margin-left: 5px
+
+.active
+    &:hover    
+      background-color: #ccc 
+    &:after
+      content: "\2796" /* Unicode character for "minus" sign (-) */  
+
+.metajelo-ui_relatedIdList, .metajelo-ui_productList
+    padding: 0 18px
+    overflow: hidden
+    border: 2px solid #e5e5e5
+    border-top: none
+
+/* Add more flexbox to align lable and input boxes on one line */
+.metajelo-ui_title, .metajelo-ui_creator, .metajelo-ui_pubyear, .metajelo-ui_resourceTypeGen, .metajelo-ui_resourceTypeDescr, .metajelo-ui_format, .metajelo-ui_institutionName, .metajelo-ui_institutionType, .metajelo-ui_superOrg, .metajelo-ui_policy, .metajelo-ui_policyType, .metajelo-ui_versioning
+   display: flex
+   input 
+      margin: 0.25rem
+      width: 70%
+      height: 2.5rem
+   select 
+      margin: 0.25rem
+      width: 50%
+
+.metajelo-ui_versioning
+  input
+    width: auto
+    box-shadow: none
 
 $docNotReadyMessage: "Metajelo doc is incomplete"
 
