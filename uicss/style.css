@@ -8,43 +8,43 @@
 **/
 @import url('/css/metajelo-styles.css');
 
-.metajelo-ui_id:before {
+.metajelo-ui_idHeader:before {
   content: "Id: ";
 }
 
-.metajelo-ui_idType:before {
+.metajelo-ui_idTypeHeader:before {
   content: " Identifier Type ";
 }
 
-.metajelo-ui_relatedId:before {
+.metajelo-ui_relatedIdHeader:before {
   content: "Related Identifier: ";
 }
 
-.metajelo-ui_relType:before {
+.metajelo-ui_relTypeHeader:before {
   content: " Relation Type ";
 }
-.metajelo-ui_date:before {
+.metajelo-ui_dateHeader:before {
   content: "Date: ";
 }
-.metajelo-ui_record:before {
+.metajelo-ui_recordHeader:before {
   content: "Metajelo Record Form ";
   font-size: 20px;
   font-weight: bold;
 }
 
-.metajelo-ui_recPreview:before {
+.metajelo-ui_recPreviewHeader:before {
   content: "Metajelo Record preview";
   font-size: 16px;
   font-weight: bold;
 }
 
-.metajelo-ui_recordId:before {
+.metajelo-ui_recordIdHeader:before {
   content: "Record Identifier";
   font-size: 14px;
   font-weight: bold;
 }
 
-.metajelo-ui_resourceId:before {
+.metajelo-ui_resourceIdHeader:before {
   content: "Resource ID";
   font-weight: bold;
 }
@@ -61,26 +61,26 @@
   font-weight: bold;
 }
 
-.metajelo-ui_product:before {
+.metajelo-ui_productHeader:before {
   content : " Product ";
   font-size: 18px;
   font-weight: bold;
 }
 
-.metajelo-ui_prodPreview:before {
+.metajelo-ui_prodPreviewHeader:before {
   content: "Product preview";
   font-size: 14px;
   font-weight: bold;
 }
 
-.metajelo-ui_location:before {
+.metajelo-ui_locationHeader:before {
   content : "Location\A";
   font-size: 16px;
   font-weight: bold;
   white-space: pre;
 }
 
-.metajelo-ui_superOrg:before {
+.metajelo-ui_superOrgHeader:before {
   content : "Super Organization (optional): ";
   font-size: 14px;
 }
@@ -91,78 +91,78 @@
 }
  */
 
-.metajelo-ui_institutionName:before {
+.metajelo-ui_institutionNameHeader:before {
   content : "Institution Name: ";
   font-size: 14px;
 }
 
-.metajelo-ui_institutionType:before {
+.metajelo-ui_institutionTypeHeader:before {
   content : " Institution Type ";
   font-size: 14px;
 }
 
-.metajelo-ui_versioning:before {
+.metajelo-ui_versioningHeader:before {
   content : " versioning? ";
 }
 
-.metajelo-ui_locPreview:before {
+.metajelo-ui_locPreviewHeader:before {
   content: "Location preview";
   font-size: 14px;
   font-weight: bold;
 }
 
-.metajelo-ui_sustainability:before {
+.metajelo-ui_sustainabilityHeader:before {
   content : "Institution Sustainability: ";
   font-size: 16px;
   font-weight: bold;
 }
 
-.metajelo-ui_missionStatement:before {
+.metajelo-ui_missionStatementHeader:before {
   content : "Mission Statement URL: ";
   font-size: 14px;
 }
 
-.metajelo-ui_fundingStatement:before {
+.metajelo-ui_fundingStatementHeader:before {
   content :  "Funding Statement URL: ";
   font-size: 14px;
 }
 
-.metajelo-ui_basicMetadata:before {
+.metajelo-ui_basicMetadataHeader:before {
   content : " Basic Metadata ";
   font-size: 14px;
   font-weight: bold;
 }
 
-.metajelo-ui_title:before {
+.metajelo-ui_titleHeader:before {
   content : "Title: ";
 }
 
-.metajelo-ui_creator:before {
+.metajelo-ui_creatorHeader:before {
   content : "Creator: ";
 }
 
-.metajelo-ui_pubyear:before {
+.metajelo-ui_pubyearHeader:before {
   content : "Publication Year: ";
 }
 
-.metajelo-ui_resourceType:before {
+.metajelo-ui_resourceTypeHeader:before {
   content :  " Resource Type ";
   font-weight: bold;
 }
 
-.metajelo-ui_resourceTypeGen:before {
+.metajelo-ui_resourceTypeGenHeader:before {
   content :  "General Type: ";
 }
 
-.metajelo-ui_resourceTypeDescr:before {
+.metajelo-ui_resourceTypeDescrHeader:before {
   content : "Description: ";
 }
 
-.metajelo-ui_format:before {
+.metajelo-ui_formatHeader:before {
   content : "Format: ";
 }
 
-.metajelo-ui_formatList:before {
+.metajelo-ui_formatListHeader:before {
   content : " Formats ";
   font-size: 16px;
   font-weight: bold;
@@ -176,50 +176,51 @@
 
 */
 
-.metajelo-ui_resourceMDSource:before {
+.metajelo-ui_resourceMDSourceHeader:before {
   content: " Resource Metadata Source ";
   font-weight: bold;
 }
 
 
-/* FIXME: this is not working for some reason: */
+/* FIXME: this is not working for some reason (may need a separate
+  dummy element/div here too) */
 .metajelo-ui_resourceMDSource .metajelo-ui_url:before {
   content: "URL: ";
 }
 
-.metajelo-ui_institutionContact:before {
+.metajelo-ui_institutionContactHeader:before {
   content :  " Institution Contact ";
   font-weight: bold;
 }
 
-.metajelo-ui_contactEmail:before {
+.metajelo-ui_contactEmailHeader:before {
   content :  " Email ";
 }
 
-.metajelo-ui_contactType:before {
+.metajelo-ui_contactTypeHeader:before {
   content :  "Contact type: ";
 }
 
-.metajelo-ui_institutionPolicies:before {
+.metajelo-ui_institutionPoliciesHeader:before {
   content :  " Institution Policies ";
   font-size: 16px;
   font-weight: bold;
 }
 
-.metajelo-ui_institutionPolicy:before {
+.metajelo-ui_institutionPolicyHeader:before {
   content :  " Institution Policy ";
   font-size: 14px;
   font-weight: bold;
 }
 
-.metajelo-ui_policy:before {
+.metajelo-ui_policyHeader:before {
   content :  "Policy: ";
 }
 
-.metajelo-ui_policyType:before {
+.metajelo-ui_policyTypeHeader:before {
   content :  "Policy type: ";
 }
 
-.metajelo-ui_applies:before {
+.metajelo-ui_appliesHeader:before {
   content :  "Applies to product? ";
 }

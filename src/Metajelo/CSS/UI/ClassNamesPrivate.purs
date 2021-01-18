@@ -8,6 +8,9 @@ page = "page"
 date :: String
 date = "date"
 
+dateHeader :: String
+dateHeader = "dateHeader"
+
 -- | Child of `record in the editor;
 -- | a flex container designed to not have any before/after pseudo-elements.
 recFlexBox :: String
@@ -18,6 +21,9 @@ recFlexBox = "recFlexBox"
 -- | a completed record
 recPreview :: String
 recPreview = "recPreview"
+
+recPreviewHeader :: String
+recPreviewHeader = "recPreviewHeader"
 
 -- | Includes all editor fields, but does not include the
 -- | preview
@@ -57,12 +63,18 @@ dataCite = "dataCite"
 prodPreview :: String
 prodPreview = "prodPreview"
 
+prodPreviewHeader :: String
+prodPreviewHeader = "prodPreviewHeader"
+
 -- | For the `<div>` containing the metajelo-web preview
 -- | for the location element of a
 -- | single supplementary product;
 -- | requires a complete product
 locPreview :: String
 locPreview = "locPreview"
+
+locPreviewHeader :: String
+locPreviewHeader = "locPreviewHeader"
 
 downloadBtn :: String
 downloadBtn = "downloadBtn"

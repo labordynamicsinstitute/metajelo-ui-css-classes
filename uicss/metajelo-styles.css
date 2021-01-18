@@ -286,13 +286,13 @@ li button:active:before {
   flex-direction: row;
 }
 
-.metajelo-ui_recPreview {
+.metajelo-ui_sideBar {
   max-height: 85vh;
   overflow: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  resize: horizontal;
+  resize: both;
 }
 
 .metajelo-ui_clipBtn:hover:disabled:after {
