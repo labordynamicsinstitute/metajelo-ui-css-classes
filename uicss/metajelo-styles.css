@@ -373,7 +373,7 @@ nav.metajelo-ui_sideBar {
   background-color: #ccc;
 }
 .metajelo-ui_relatedIdsHeader:after, .metajelo-ui_productsHeader:after {
-  content: "➕";
+  content: ➖;
   font-size: 13px;
   color: white;
   float: right;
@@ -384,7 +384,7 @@ nav.metajelo-ui_sideBar {
   background-color: #ccc;
 }
 .active:after {
-  content: "➖";
+  content: ➖;
 }
 
 .metajelo-ui_relatedIdList, .metajelo-ui_productList {
