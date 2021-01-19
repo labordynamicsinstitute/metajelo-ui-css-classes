@@ -224,3 +224,11 @@
 .metajelo-ui_appliesHeader:before {
   content :  "Applies to product? ";
 }
+
+.metajelo-ui_uploadDescr:before {
+  content :  "Upload a Metajelo XML file: ";
+}
+
+.metajelo-ui_reloadDescr:before {
+  content :  "To reset the form, reload this page. ";
+}

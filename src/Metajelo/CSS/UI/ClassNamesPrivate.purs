@@ -95,3 +95,9 @@ addItem = "addItem"
 -- | Button to delete the current item
 deleteItem :: String
 deleteItem = "deleteItem"
+
+uploadDescr :: String
+uploadDescr = "uploadDescr"
+
+reloadDescr :: String
+reloadDescr = "reloadDescr"

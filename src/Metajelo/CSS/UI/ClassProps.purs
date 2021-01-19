@@ -97,6 +97,12 @@ addItem = U.mjUiClass CN.addItem
 deleteItem :: ∀ a. ReactProps a
 deleteItem = U.mjUiClass CN.deleteItem
 
+uploadDescr :: ∀ a. ReactProps a
+uploadDescr = U.mjUiClass CN.uploadDescr
+
+reloadDescr :: ∀ a. ReactProps a
+reloadDescr = U.mjUiClass CN.reloadDescr
+
 ------- Common classes follow ----------------------------
 
 record :: ∀ a. ReactProps a
