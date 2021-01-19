@@ -112,7 +112,6 @@ button:disabled
     padding: 1rem
   div, div span
     &:before
-      color: $secondary-color
       font-size: 1.5rem
       padding: 0
       font-weight: 500
@@ -311,3 +310,187 @@ $docNotReadyMessage: "Metajelo doc is incomplete"
 //small screens
 @media all and (min-width: 480px)
   //mobile styles here
+
+
+
+/* Pseudo-element definitions follow */
+
+
+.metajelo-ui_idHeader:before
+  content: "Id: "
+
+.metajelo-ui_idTypeHeader:before
+  content: " Identifier Type "
+
+.metajelo-ui_relatedIdHeader:before
+  content: "Related Identifier: "
+
+.metajelo-ui_relTypeHeader:before
+  content: " Relation Type "
+
+.metajelo-ui_dateHeader:before
+  content: "Date: "
+  font-size: 16px
+
+.metajelo-ui_recordHeader:before
+  content: "Metajelo Record Form "
+  font-size: 20px
+  font-weight: bold
+  color: $secondary-color
+
+.metajelo-ui_recPreviewHeader:before
+  content: "Metajelo record preview"
+  font-size: 16px
+  font-weight: bold
+
+.metajelo-ui_recordIdHeader:before
+  content: "Record Identifier"
+  font-size: 14px
+  font-weight: bold
+
+.metajelo-ui_resourceIdHeader:before
+  content: "Resource ID"
+  font-weight: bold
+
+.metajelo-ui_productsHeader:before
+  content: " Supplementary Products "
+  font-size: 18px
+  font-weight: bold
+
+.metajelo-ui_relatedIdsHeader:before
+  content : " Related Identifiers "
+  font-size: 14px
+  font-weight: bold
+
+.metajelo-ui_productHeader:before
+  content : " Product "
+  font-size: 18px
+  font-weight: bold
+
+.metajelo-ui_prodPreviewHeader:before
+  content: "Product preview"
+  font-size: 14px
+  font-weight: bold
+
+.metajelo-ui_locationHeader:before
+  content : "Location\A"
+  font-size: 16px
+  font-weight: bold
+  white-space: pre
+
+.metajelo-ui_superOrgHeader:before
+  content : "Super Organization (optional): "
+  font-size: 14px
+
+/* .metajelo-ui_institutionId:before
+  content : "\AInstitution ID: "
+  font-size: 14px
+
+ */
+
+.metajelo-ui_institutionNameHeader:before
+  content : "Institution Name: "
+  font-size: 14px
+
+.metajelo-ui_institutionTypeHeader:before
+  content : " Institution Type "
+  font-size: 14px
+
+.metajelo-ui_versioningHeader:before
+  content : " versioning? "
+
+.metajelo-ui_locPreviewHeader:before
+  content: "Location preview"
+  font-size: 14px
+  font-weight: bold
+
+.metajelo-ui_sustainabilityHeader:before
+  content : "Institution Sustainability: "
+  font-size: 16px
+  font-weight: bold
+
+.metajelo-ui_missionStatementHeader:before
+  content : "Mission Statement URL: "
+  font-size: 14px
+
+.metajelo-ui_fundingStatementHeader:before
+  content :  "Funding Statement URL: "
+  font-size: 14px
+
+.metajelo-ui_basicMetadataHeader:before
+  content : " Basic Metadata "
+  font-size: 14px
+  font-weight: bold
+
+.metajelo-ui_titleHeader:before
+  content : "Title: "
+
+.metajelo-ui_creatorHeader:before
+  content : "Creator: "
+
+.metajelo-ui_pubyearHeader:before
+  content : "Publication Year: "
+
+.metajelo-ui_resourceTypeHeader:before
+  content :  " Resource Type "
+  font-weight: bold
+
+.metajelo-ui_resourceTypeGenHeader:before
+  content :  "General Type: "
+
+.metajelo-ui_resourceTypeDescrHeader:before
+  content : "Description: "
+
+.metajelo-ui_formatHeader:before
+  content : "Format: "
+
+.metajelo-ui_formatListHeader:before
+  content : " Formats "
+  font-size: 16px
+  font-weight: bold
+
+
+.metajelo-ui_resourceMDSourceHeader:before
+  content: " Resource Metadata Source "
+  font-weight: bold
+
+
+/* FIXME: this is not working for some reason (may need a separate
+  dummy element/div here too) */
+.metajelo-ui_resourceMDSource .metajelo-ui_url:before
+  content: "URL: "
+
+.metajelo-ui_institutionContactHeader:before
+  content :  " Institution Contact "
+  font-weight: bold
+
+.metajelo-ui_contactEmailHeader:before
+  content :  " Email "
+
+.metajelo-ui_contactTypeHeader:before
+  content :  "Contact type: "
+
+.metajelo-ui_institutionPoliciesHeader:before
+  content :  " Institution Policies "
+  font-size: 16px
+  font-weight: bold
+
+.metajelo-ui_institutionPolicyHeader:before
+  content :  " Institution Policy "
+  font-size: 14px
+  font-weight: bold
+
+.metajelo-ui_policyHeader:before
+  content :  "Policy: "
+
+.metajelo-ui_policyTypeHeader:before
+  content :  "Policy type: "
+
+.metajelo-ui_appliesHeader:before
+  content :  "Applies to product? "
+
+.metajelo-ui_uploadDescr:before
+  content :  "Upload a Metajelo XML file: "
+
+.metajelo-ui_reloadDescr:before
+  content :  "To reset the form, reload this page. "
