@@ -57,6 +57,12 @@ sideBarCol = "sideBarCol"
 dataCite :: String
 dataCite = "dataCite"
 
+dataCiteFatal :: String
+dataCiteFatal = "dataCiteFatal"
+
+dataCiteNonFatal :: String
+dataCiteNonFatal = "dataCiteNonFatal"
+
 -- | For the `<div>` containing the metajelo-web preview
 -- | for a single supplementary product;
 -- | requires a complete product

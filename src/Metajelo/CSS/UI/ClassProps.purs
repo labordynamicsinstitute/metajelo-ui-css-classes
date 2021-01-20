@@ -61,6 +61,12 @@ sideBarCol = U.mjUiClass CN.sideBarCol
 dataCite :: ∀ a. ReactProps a
 dataCite = U.mjUiClass CN.dataCite
 
+dataCiteFatal :: ∀ a. ReactProps a
+dataCiteFatal = U.mjUiClass CN.dataCiteFatal
+
+dataCiteNonFatal :: ∀ a. ReactProps a
+dataCiteNonFatal = U.mjUiClass CN.dataCiteNonFatal
+
 -- | For the `<div>` containing the metajelo-web preview
 -- | for a single supplementary product;
 -- | requires a complete product
