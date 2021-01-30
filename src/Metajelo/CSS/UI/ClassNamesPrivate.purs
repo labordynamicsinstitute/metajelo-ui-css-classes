@@ -4,6 +4,11 @@ module Metajelo.CSS.UI.ClassNamesPrivate where
 page :: String
 page = "page"
 
+-- | Whether or not an element is active (e.g. expanded
+--- | instead of collapsed).
+active :: String
+active = "active"
+
 -- | For entering creation date of record
 date :: String
 date = "date"

@@ -9,6 +9,11 @@ import Concur.React.Props (ReactProps)
 page :: ∀ a. ReactProps a
 page = U.mjUiClass CN.page
 
+-- | Whether or not an element is active (e.g. expanded
+--- | instead of collapsed).
+active :: ∀ a. ReactProps a
+active = U.mjUiClass CN.active
+
 -- | For entering creation date of record
 date :: ∀ a. ReactProps a
 date = U.mjUiClass CN.date

@@ -372,17 +372,17 @@ nav.metajelo-ui_sideBar {
   background-color: #ccc;
 }
 .metajelo-ui_relatedIdsHeader:after, .metajelo-ui_productsHeader:after {
-  content: "➖";
+  content: "➕";
   font-size: 13px;
   color: white;
   float: right;
   margin-left: 5px;
 }
 
-.active:hover {
+.metajelo-ui_active:hover {
   background-color: #ccc;
 }
-.active:after {
+.metajelo-ui_active:after {
   content: "➖";
 }
 
