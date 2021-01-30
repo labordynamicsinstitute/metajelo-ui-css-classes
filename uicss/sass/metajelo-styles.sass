@@ -250,7 +250,8 @@ nav.metajelo-ui_sideBar
       margin: auto
 
 /* Collapsible */
-.metajelo-ui_relatedIdsHeader, .metajelo-ui_productsHeader
+
+@mixin collapsible
     background-color: #eee
     color: #444
     cursor: pointer
@@ -259,20 +260,41 @@ nav.metajelo-ui_sideBar
     border: none
     text-align: left
     outline: none
-    font-size: 15px
     &:hover
       background-color: #ccc
+
+@mixin collapsible-after
+  font-size: 13px
+  color: white
+  float: right
+
+.metajelo-ui_relatedIdsHeader
+    @include collapsible
+    font-size: 15px
+    &:before
+      content : " Related Identifiers "
+      font-size: 14px
+      font-weight: bold
     &:after
+        @include collapsible-after
         content: "\02795" /* Unicode character for "plus" sign (➕) */
-        font-size: 13px
-        color: white
-        float: right
+        margin-left: 5px
+
+.metajelo-ui_productsHeader
+    @include collapsible
+    font-size: 15px
+    &:before
+      content: " Supplementary Products "
+      font-size: 18px
+      font-weight: bold
+    &:after
+        @include collapsible-after
+        content: "\02795" /* Unicode character for "plus" sign (➕) */
         margin-left: 5px
 
 .metajelo-ui_active
-    &:hover
-      background-color: #ccc
     &:after
+      @include collapsible-after
       content: "\2796" /* Unicode character for "minus" sign (➖) */
 
 .metajelo-ui_relatedIdList, .metajelo-ui_productList
@@ -352,15 +374,6 @@ $docNotReadyMessage: "Metajelo doc is incomplete"
   content: "Resource ID"
   font-weight: bold
 
-.metajelo-ui_productsHeader:before
-  content: " Supplementary Products "
-  font-size: 18px
-  font-weight: bold
-
-.metajelo-ui_relatedIdsHeader:before
-  content : " Related Identifiers "
-  font-size: 14px
-  font-weight: bold
 
 .metajelo-ui_productHeader:before
   content : " Product "

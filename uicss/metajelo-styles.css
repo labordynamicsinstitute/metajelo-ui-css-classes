@@ -357,7 +357,7 @@ nav.metajelo-ui_sideBar {
 }
 
 /* Collapsible */
-.metajelo-ui_relatedIdsHeader, .metajelo-ui_productsHeader {
+.metajelo-ui_relatedIdsHeader {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -368,21 +368,53 @@ nav.metajelo-ui_sideBar {
   outline: none;
   font-size: 15px;
 }
-.metajelo-ui_relatedIdsHeader:hover, .metajelo-ui_productsHeader:hover {
+.metajelo-ui_relatedIdsHeader:hover {
   background-color: #ccc;
 }
-.metajelo-ui_relatedIdsHeader:after, .metajelo-ui_productsHeader:after {
-  content: "➕";
+.metajelo-ui_relatedIdsHeader:before {
+  content: " Related Identifiers ";
+  font-size: 14px;
+  font-weight: bold;
+}
+.metajelo-ui_relatedIdsHeader:after {
   font-size: 13px;
   color: white;
   float: right;
+  content: "➕";
   margin-left: 5px;
 }
 
-.metajelo-ui_active:hover {
+.metajelo-ui_productsHeader {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.metajelo-ui_productsHeader:hover {
   background-color: #ccc;
 }
+.metajelo-ui_productsHeader:before {
+  content: " Supplementary Products ";
+  font-size: 18px;
+  font-weight: bold;
+}
+.metajelo-ui_productsHeader:after {
+  font-size: 13px;
+  color: white;
+  float: right;
+  content: "➕";
+  margin-left: 5px;
+}
+
 .metajelo-ui_active:after {
+  font-size: 13px;
+  color: white;
+  float: right;
   content: "➖";
 }
 
@@ -497,18 +529,6 @@ nav.metajelo-ui_sideBar {
 
 .metajelo-ui_resourceIdHeader:before {
   content: "Resource ID";
-  font-weight: bold;
-}
-
-.metajelo-ui_productsHeader:before {
-  content: " Supplementary Products ";
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.metajelo-ui_relatedIdsHeader:before {
-  content: " Related Identifiers ";
-  font-size: 14px;
   font-weight: bold;
 }
 
