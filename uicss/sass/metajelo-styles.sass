@@ -276,9 +276,9 @@ nav.metajelo-ui_sideBar
       font-size: 14px
       font-weight: bold
     &:after
-        @include collapsible-after
-        content: "\02795" /* Unicode character for "plus" sign (➕) */
-        margin-left: 5px
+      @include collapsible-after
+      content: "\02795" /* Unicode character for "plus" sign (➕) */
+      margin-left: 5px
 
 .metajelo-ui_productsHeader
     @include collapsible
@@ -288,11 +288,22 @@ nav.metajelo-ui_sideBar
       font-size: 18px
       font-weight: bold
     &:after
-        @include collapsible-after
-        content: "\02795" /* Unicode character for "plus" sign (➕) */
-        margin-left: 5px
+      @include collapsible-after
+      content: "\02795" /* Unicode character for "plus" sign (➕) */
+      margin-left: 5px
+
+.metajelo-ui_productHeader
+  &:before
+    content : " Product "
+    font-size: 18px
+    font-weight: bold
+  &:after
+    @include collapsible-after
+    content: "\02795" /* Unicode character for "plus" sign (➕) */
+    margin-left: 5px
 
 .metajelo-ui_active
+    @include collapsible
     &:after
       @include collapsible-after
       content: "\2796" /* Unicode character for "minus" sign (➖) */
@@ -374,11 +385,6 @@ $docNotReadyMessage: "Metajelo doc is incomplete"
   content: "Resource ID"
   font-weight: bold
 
-
-.metajelo-ui_productHeader:before
-  content : " Product "
-  font-size: 18px
-  font-weight: bold
 
 .metajelo-ui_prodPreviewHeader:before
   content: "Product preview"

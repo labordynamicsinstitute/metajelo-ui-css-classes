@@ -411,6 +411,32 @@ nav.metajelo-ui_sideBar {
   margin-left: 5px;
 }
 
+.metajelo-ui_productHeader:before {
+  content: " Product ";
+  font-size: 18px;
+  font-weight: bold;
+}
+.metajelo-ui_productHeader:after {
+  font-size: 13px;
+  color: white;
+  float: right;
+  content: "➕";
+  margin-left: 5px;
+}
+
+.metajelo-ui_active {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.metajelo-ui_active:hover {
+  background-color: #ccc;
+}
 .metajelo-ui_active:after {
   font-size: 13px;
   color: white;
@@ -529,12 +555,6 @@ nav.metajelo-ui_sideBar {
 
 .metajelo-ui_resourceIdHeader:before {
   content: "Resource ID";
-  font-weight: bold;
-}
-
-.metajelo-ui_productHeader:before {
-  content: " Product ";
-  font-size: 18px;
   font-weight: bold;
 }
 
