@@ -309,6 +309,17 @@ nav.metajelo-ui_sideBar
     content: "\02795" /* Unicode character for "plus" sign (➕) */
     margin-left: 5px
 
+.metajelo-ui_institutionPolicyHeader
+  @include collapsible
+  &:before
+    content : " Institution Policy "
+    font-size: 14px
+    font-weight: bold
+  &:after
+    @include collapsible-after
+    content: "\02795" /* Unicode character for "plus" sign (➕) */
+    margin-left: 5px
+
 .metajelo-ui_active
     @include collapsible
     &:after
@@ -499,11 +510,6 @@ $docNotReadyMessage: "Metajelo doc is incomplete"
 .metajelo-ui_institutionPoliciesHeader:before
   content :  " Institution Policies "
   font-size: 16px
-  font-weight: bold
-
-.metajelo-ui_institutionPolicyHeader:before
-  content :  " Institution Policy "
-  font-size: 14px
   font-weight: bold
 
 .metajelo-ui_policyHeader:before

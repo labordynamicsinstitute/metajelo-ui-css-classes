@@ -449,6 +449,32 @@ nav.metajelo-ui_sideBar {
   margin-left: 5px;
 }
 
+.metajelo-ui_institutionPolicyHeader {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 0.6em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.metajelo-ui_institutionPolicyHeader:hover {
+  background-color: #ccc;
+}
+.metajelo-ui_institutionPolicyHeader:before {
+  content: " Institution Policy ";
+  font-size: 14px;
+  font-weight: bold;
+}
+.metajelo-ui_institutionPolicyHeader:after {
+  font-size: 13px;
+  color: white;
+  float: right;
+  content: "➕";
+  margin-left: 5px;
+}
+
 .metajelo-ui_active {
   background-color: #eee;
   color: #444;
@@ -710,12 +736,6 @@ nav.metajelo-ui_sideBar {
 .metajelo-ui_institutionPoliciesHeader:before {
   content: " Institution Policies ";
   font-size: 16px;
-  font-weight: bold;
-}
-
-.metajelo-ui_institutionPolicyHeader:before {
-  content: " Institution Policy ";
-  font-size: 14px;
   font-weight: bold;
 }
 
