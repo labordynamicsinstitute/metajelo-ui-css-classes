@@ -143,13 +143,7 @@ button:disabled
   margin: 1rem
   padding: .5rem 0
 
-.metajelo-ui_sideBar,
-.metajelo-ui_dataCite,
-.metajelo-ui_recPreview,
-.metajelo-ui_recEditor,
-.metajelo-ui_products,
-.metajelo-ui_relatedIds,
-.metajelo-ui_recordId
+@mixin major-divs
   padding: 2rem 1rem
   //border-top: 2px solid $medium-grey
   margin-top: 1rem
@@ -161,6 +155,19 @@ button:disabled
     color: #595959
   li:last-child
     border-bottom: 0px
+
+
+.metajelo-ui_dataCite,
+.metajelo-ui_recPreview,
+.metajelo-ui_recEditor,
+.metajelo-ui_products,
+.metajelo-ui_relatedIds,
+.metajelo-ui_recordId
+  @include major-divs
+
+.metajelo-ui_sideBar
+  @include major-divs
+  min-width: 400px
 
 .metajelo-ui_date
     margin-top: 1rem
@@ -204,6 +211,7 @@ nav.metajelo-ui_sideBar
     background-color: #f1f1f1
     padding: 0
     margin: 0
+    min-width: inherit
 
 .metajelo-ui_sideBarTab
     display: inline

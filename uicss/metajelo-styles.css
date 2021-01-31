@@ -198,7 +198,6 @@ button:disabled:active:before {
   padding: 0.5rem 0;
 }
 
-.metajelo-ui_sideBar,
 .metajelo-ui_dataCite,
 .metajelo-ui_recPreview,
 .metajelo-ui_recEditor,
@@ -208,7 +207,6 @@ button:disabled:active:before {
   padding: 2rem 1rem;
   margin-top: 1rem;
 }
-.metajelo-ui_sideBar li,
 .metajelo-ui_dataCite li,
 .metajelo-ui_recPreview li,
 .metajelo-ui_recEditor li,
@@ -221,13 +219,28 @@ button:disabled:active:before {
   padding: 1rem 0;
   color: #595959;
 }
-.metajelo-ui_sideBar li:last-child,
 .metajelo-ui_dataCite li:last-child,
 .metajelo-ui_recPreview li:last-child,
 .metajelo-ui_recEditor li:last-child,
 .metajelo-ui_products li:last-child,
 .metajelo-ui_relatedIds li:last-child,
 .metajelo-ui_recordId li:last-child {
+  border-bottom: 0px;
+}
+
+.metajelo-ui_sideBar {
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  min-width: 400px;
+}
+.metajelo-ui_sideBar li {
+  list-style: none;
+  margin: 0.5rem 2rem 0 1.5rem;
+  border-bottom: 1px solid #404040;
+  padding: 1rem 0;
+  color: #595959;
+}
+.metajelo-ui_sideBar li:last-child {
   border-bottom: 0px;
 }
 
@@ -275,6 +288,7 @@ nav.metajelo-ui_sideBar {
   background-color: #f1f1f1;
   padding: 0;
   margin: 0;
+  min-width: inherit;
 }
 
 .metajelo-ui_sideBarTab {
