@@ -120,7 +120,7 @@ button:disabled
         color: $dark-grey
         font-size: 1rem
         font-weight: 700
-        line-height: 50px
+        line-height: 1.2em
     div div span
       &:before
         color: $dark-grey
@@ -255,7 +255,7 @@ nav.metajelo-ui_sideBar
     background-color: #eee
     color: #444
     cursor: pointer
-    padding: 18px
+    padding: 0.6em
     width: 100%
     border: none
     text-align: left
@@ -270,7 +270,6 @@ nav.metajelo-ui_sideBar
 
 .metajelo-ui_relatedIdsHeader
     @include collapsible
-    font-size: 15px
     &:before
       content : " Related Identifiers "
       font-size: 14px
@@ -282,7 +281,6 @@ nav.metajelo-ui_sideBar
 
 .metajelo-ui_productsHeader
     @include collapsible
-    font-size: 15px
     &:before
       content: " Supplementary Products "
       font-size: 18px
@@ -293,6 +291,7 @@ nav.metajelo-ui_sideBar
       margin-left: 5px
 
 .metajelo-ui_productHeader
+  @include collapsible
   &:before
     content : " Product "
     font-size: 18px

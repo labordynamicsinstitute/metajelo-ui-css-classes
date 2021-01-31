@@ -172,7 +172,7 @@ button:disabled:active:before {
   color: #404040;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 1.2em;
 }
 .metajelo-ui_record div div div span:before, .metajelo-ui_record div span div div span:before {
   color: #404040;
@@ -361,12 +361,11 @@ nav.metajelo-ui_sideBar {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 0.6em;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
 }
 .metajelo-ui_relatedIdsHeader:hover {
   background-color: #ccc;
@@ -388,12 +387,11 @@ nav.metajelo-ui_sideBar {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 0.6em;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
 }
 .metajelo-ui_productsHeader:hover {
   background-color: #ccc;
@@ -411,6 +409,19 @@ nav.metajelo-ui_sideBar {
   margin-left: 5px;
 }
 
+.metajelo-ui_productHeader {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 0.6em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.metajelo-ui_productHeader:hover {
+  background-color: #ccc;
+}
 .metajelo-ui_productHeader:before {
   content: " Product ";
   font-size: 18px;
@@ -428,7 +439,7 @@ nav.metajelo-ui_sideBar {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 0.6em;
   width: 100%;
   border: none;
   text-align: left;
