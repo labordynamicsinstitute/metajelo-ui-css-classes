@@ -16,6 +16,6 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "sass": "^1.36.0"
+    "sass": "^1.37.0"
   }
 }
