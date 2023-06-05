@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+    timezone: America/Cancun
+  open-pull-requests-limit: 99
+  reviewers:
+  - bbarker
+  ignore:
+  - dependency-name: sass
+    versions:
+    - 1.32.11
+  - dependency-name: purescript
+    versions:
+    - 0.14.0
